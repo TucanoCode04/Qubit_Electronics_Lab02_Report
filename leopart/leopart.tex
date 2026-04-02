@@ -14,36 +14,52 @@ as Touchstone files and then they have been elaborated using python, in particul
 
 \section{Analysis of the measurements}
 By looking at figure \ref{plots_full}, which shows the magnitude of the signal of the respective channel, is it clear that the device has a reciprocal response
-between the two ports, since the plots of $S11$,$S22$ are identical as well as $S12$,$S21$ plots. So, for the rest of the analysis,
-we will focus only on the $S22$ and $S12$ parameters.
+between the two ports, since the plots of $S11$,$S22$ are identical as well as $S12$,$S21$ plots. The validity of this assumption is confirmed by the extraced values showed in table \ref{tab_pb}.
+This is a typical behavior of a passive component and so, for the rest of the analysis, we will focus only on the $S22$ and $S12$ parameters (second row of the figure).
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{leopart/plot_full.png}
     \caption{Plots of the parameters of the Scattering matrix}
     \label{plots_full}
 \end{figure}
-The analysis of the $S22$ and $S12$ parameters is summarized in table \ref{tab_pb}.
-\begin{table}[h]
+\begin{table}[H]
     \centering
     \label{tab_pb}
+    \begin{minipage}{0.48\textwidth}
     \begin{tabular}{|l|c|c|c|}
         \hline
-        \textbf{Parameter} & \textbf{Peak frequency [MHz]} & \textbf{Magnitude on peak [dB]} & \textbf{Bandwidth [MHz]} \\
+        \textbf{P} & \textbf{$f_{res}$ [MHz]} & \textbf{Min.Mag. [dB]} & \textbf{Match. BW [MHz]} \\
         \hline
-        $S_{22}$ & 2287 & -19.53 & 64.90 \\
+        $S_{22}$ & 2287 & -19.53 & 103.84 \\
+        \hline
+        $S_{11}$ & 2281 & -17.81 & 103.84 \\
+        \hline
+    \end{tabular}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.33\textwidth}
+    \begin{tabular}{|l|c|c|c|}
+        \hline
+        \textbf{P} & \textbf{$f_c$ [MHz]} & \textbf{Max.Mag. [dB]} & \textbf{BW [MHz]} \\
         \hline
         $S_{12}$ & 2275 & -4.88 & 123.31 \\
         \hline
+        $S_{21}$ & 2275 & -4.88 & 123.31 \\
+        \hline
     \end{tabular}
-    \caption{Analysis of the $S22$ and $S12$ parameters}
+    \end{minipage}
+    \caption{Values of the $S$ parameters, where \textbf{$f_{res}$} is the resonance frequency; \textbf{Match. BW} is the matching bandwidth calcualted at $<$-10dB; $f_c$ is the central frequency; \textbf{BW} is the bandwidth calculated at -3dB. It's evident the reciprocity of the device by comparison of the values of the parameters.}
 \end{table}
-By examinating the $S12$ plot, we understand that the device is allowing the signal to pass through it in a frequency range around $2275$MHz 
-
-me so rotto er cazzo
+By examinating the $S12$ parameter, we understand that the device is allowing the signal to pass from input port (port 2) to output port (port 1) in a frequency range around $2275$MHz,
+with a bandwidth of $123.31$MHz. This tells us that the device has a quite wide bandwidth, making it suitable for the transmission of a not so limited number of frequencies. At peak frequency, the signal has an attenuation of $-4.88$dB, meaning that when the transmitted signal is at its peak, almost 60\% of it is transmitted. This 
+is due to the fact that the device is not an ideal one so it is affected by internal losses.\\
+Regarding the $S22$ parameter, we observe that the signal is almost completely reflected at frequencies below $2200$MHz and above $2300$MHz,
+while the reflection is minimum between these values at $2275$MHz where the magnitude of the reflected signal corresponds to $-19.53$dB. This behaviour is consistent with the previous analysis of the $S12$ parameter,
+since the signal is transmitted to port 1 from port 2 at the same frequency range at wich, on port 2, the signal is not reflected.
 
 \section{Summary}
-here i just summarize the findings that i just explained in the rpevious section
-\chapter{Antenna}
+In conclusion, we can state that the device under test acts as a two-ports reciprocal passband filter. This conclusion is supported by the transmission bandwidth ($S_{12}$ or $S_{21}$), which is sufficiently wide to exclude the possibility of a high-Q resonator. Given the operating frequency range around $2300$MHz, the device could be used in wireless communication systems, such as S-band applications or wireless data links
+for filtering out unwanted frequencies.
 \section{Setup}
 \section{Analysis of the measurements}
 \section{Summary}
