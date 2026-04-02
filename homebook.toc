@@ -1,2 +1,20 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{\numberline {1}Passband filter}{1}{}%
+\contentsline {chapter}{\numberline {1}Passband Filter}{1}{}%
+\contentsline {section}{\numberline {1.1}Setup}{1}{}%
+\contentsline {section}{\numberline {1.2}Analysis of the measurements}{1}{}%
+\contentsline {section}{\numberline {1.3}Summary}{2}{}%
+\contentsline {section}{\numberline {1.4}Setup}{3}{}%
+\contentsline {section}{\numberline {1.5}Analysis of the measurements}{3}{}%
+\contentsline {section}{\numberline {1.6}Summary}{3}{}%
+\contentsline {chapter}{\numberline {2}Circulator Characterization}{4}{}%
+\contentsline {section}{\numberline {2.1}Measurement Setup and Working Principle}{4}{}%
+\contentsline {section}{\numberline {2.2}Measured Response and Discussion}{6}{}%
+\contentsline {subsection}{\numberline {2.2.1}Configuration 1}{6}{}%
+\contentsline {subsection}{\numberline {2.2.2}Configuration 2}{8}{}%
+\contentsline {section}{\numberline {2.3}Physical Interpretation}{9}{}%
+\contentsline {section}{\numberline {2.4}Conclusion}{10}{}%
+\contentsline {chapter}{\numberline {3}Device Characterization}{11}{}%
+\contentsline {section}{\numberline {3.1}Measurement Setup}{11}{}%
+\contentsline {section}{\numberline {3.2}Measured Response and Discussion}{12}{}%
+\contentsline {section}{\numberline {3.3}Physical Interpretation}{15}{}%
+\contentsline {section}{\numberline {3.4}Conclusion}{16}{}%
