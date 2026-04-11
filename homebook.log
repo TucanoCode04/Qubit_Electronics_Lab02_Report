@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.20)  11 APR 2026 17:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.20)  11 APR 2026 17:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -206,7 +206,20 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [makeidx].
 
-(./homebook.aux)
+(./homebook.aux
+
+LaTeX Warning: Label `fig:device' multiply defined.
+
+
+LaTeX Warning: Label `fig:reflections' multiply defined.
+
+
+LaTeX Warning: Label `fig:transmission' multiply defined.
+
+
+LaTeX Warning: Label `tab:parametri_s' multiply defined.
+
+)
 \openout1 = `homebook.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
@@ -400,25 +413,45 @@ Package pdftex.def Info: Daje Roma's Section/Band Reject/Plots/BR_trasmission.pn
 (pdftex.def)             Requested size: 211.68661pt x 105.84193pt.
 [21
 
- <./Daje Roma's Section/Band Reject/Plots/BR_photo.jpg> <./Daje Roma's Section/Band Reject/Plots/BR_reflections.png> <./Daje Roma's Section/Band Reject/Plots/BR_trasmission.png>]) [22] (./homebook.aux)
+ <./Daje Roma's Section/Band Reject/Plots/BR_photo.jpg> <./Daje Roma's Section/Band Reject/Plots/BR_reflections.png> <./Daje Roma's Section/Band Reject/Plots/BR_trasmission.png>]) (./Daje Roma's Section/Band Reject/BR.tex [22]
+Chapter 7.
+File: Daje Roma's Section/Band Reject/Plots/BR_photo.jpg Graphic file (type jpg)
+<use Daje Roma's Section/Band Reject/Plots/BR_photo.jpg>
+Package pdftex.def Info: Daje Roma's Section/Band Reject/Plots/BR_photo.jpg  used on input line 7.
+(pdftex.def)             Requested size: 220.50885pt x 90.0196pt.
+File: Daje Roma's Section/Band Reject/Plots/BR_reflections.png Graphic file (type png)
+<use Daje Roma's Section/Band Reject/Plots/BR_reflections.png>
+Package pdftex.def Info: Daje Roma's Section/Band Reject/Plots/BR_reflections.png  used on input line 22.
+(pdftex.def)             Requested size: 211.68661pt x 105.84193pt.
+File: Daje Roma's Section/Band Reject/Plots/BR_trasmission.png Graphic file (type png)
+<use Daje Roma's Section/Band Reject/Plots/BR_trasmission.png>
+Package pdftex.def Info: Daje Roma's Section/Band Reject/Plots/BR_trasmission.png  used on input line 29.
+(pdftex.def)             Requested size: 211.68661pt x 105.84193pt.
+[23
+
+]) (./Daje Roma's Section/Circular Resonator/CR.tex) [24] (./homebook.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 5778 strings out of 474222
- 92086 string characters out of 5748733
+ 5791 strings out of 474222
+ 92652 string characters out of 5748733
  1933975 words of memory out of 5000000
- 27959 multiletter control sequences out of 15000+600000
+ 27965 multiletter control sequences out of 15000+600000
  564232 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,13n,69p,771b,305s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,13n,69p,773b,305s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on homebook.pdf (24 pages, 5255469 bytes).
+Output written on homebook.pdf (26 pages, 5260256 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
+ 199 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -24,5 +24,9 @@
 \contentsline {section}{\numberline {5.4}Conclusion}{20}{}%
 \contentsline {chapter}{\numberline {6}Band Reject}{21}{}%
 \contentsline {section}{\numberline {6.1}Setup}{21}{}%
-\contentsline {section}{\numberline {6.2}Analysis of the measurement}{21}{}%
+\contentsline {section}{\numberline {6.2}Analysis of the measurements}{21}{}%
 \contentsline {section}{\numberline {6.3}Summary}{22}{}%
+\contentsline {chapter}{\numberline {7}Band Reject}{23}{}%
+\contentsline {section}{\numberline {7.1}Setup}{23}{}%
+\contentsline {section}{\numberline {7.2}Analysis of the measurements}{23}{}%
+\contentsline {section}{\numberline {7.3}Summary}{24}{}%

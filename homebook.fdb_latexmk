@@ -1,13 +1,13 @@
 # Fdb version 4
-["makeindex homebook.idx"] 1775921874.9327 "homebook.idx" "homebook.ind" "homebook" 1775922689.56218 0
-  "homebook.idx" 1775922685.6097 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex homebook.idx"] 1775921874.9327 "homebook.idx" "homebook.ind" "homebook" 1775922975.58733 0
+  "homebook.idx" 1775922971.75522 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "homebook.ilg"
   "homebook.ind"
   (rewritten before read)
-["pdflatex"] 1775922685.04563 "/home/klakson/Desktop/uni_master/first_year/second_semester/Qubit Electronics/labs/lab2/report/Qubit_Electronics_Lab02_Report/homebook.tex" "homebook.pdf" "homebook" 1775922689.56252 0
+["pdflatex"] 1775922971.27303 "/home/klakson/Desktop/uni_master/first_year/second_semester/Qubit Electronics/labs/lab2/report/Qubit_Electronics_Lab02_Report/homebook.tex" "homebook.pdf" "homebook" 1775922975.58759 0
   "/etc/texmf/web2c/texmf.cnf" 1774005325.26675 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/klakson/Desktop/uni_master/first_year/second_semester/Qubit Electronics/labs/lab2/report/Qubit_Electronics_Lab02_Report/homebook.tex" 1775915960.66987 3784 4789af034fe98daf600def265a89d074 ""
+  "/home/klakson/Desktop/uni_master/first_year/second_semester/Qubit Electronics/labs/lab2/report/Qubit_Electronics_Lab02_Report/homebook.tex" 1775922966.22879 3959 028c17e0e9eaa4be3069d73d99de6716 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -80,10 +80,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1774005348.12989 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1774005484 8214427 0cb22ae05101bc55f778cf89f77045eb ""
-  "Daje Roma's Section/Band Reject/BR.tex" 1775919988.86428 3881 e13ca7431a3985d38109a6b3e575ea22 ""
+  "Daje Roma's Section/Band Reject/BR.tex" 1775922764.62628 3882 9cde1d256e342b134937e0c3a49261ae ""
   "Daje Roma's Section/Band Reject/Plots/BR_photo.jpg" 1775897109.13813 342650 9166dbc923d5253ff01beb46bb5115bc ""
   "Daje Roma's Section/Band Reject/Plots/BR_reflections.png" 1775897109.13813 68874 38510b324123afc31f31b620234b0ad7 ""
   "Daje Roma's Section/Band Reject/Plots/BR_trasmission.png" 1775897109.14013 36939 6bb1f1c99ede8df39a1a33fa93ce07ac ""
+  "Daje Roma's Section/Circular Resonator/CR.tex" 1775922966.22844 2 9a8ad92c50cae39aa2c5604fd0ab6d8c ""
   "Davides_Section/Circulator/circulator.tex" 1775228711.99588 6000 853905c696b8c5a95f240c1e14d10a43 ""
   "Davides_Section/Circulator/plots/circulator.jpg" 1775228712.03588 1723494 8f136db41eb290b6aaa07125cec4745e ""
   "Davides_Section/Circulator/plots/config1_reflection.png" 1775228712.05488 182972 50f8cd0b41971d8ba4fa684b65d643cf ""
@@ -97,10 +98,10 @@
   "Davides_Section/Dispabc/plots/dispabc.jpg" 1775228712.1006 1408995 18b8959879c68253db9a2bc9c3da7979 ""
   "Intro/device_2ports.png" 1775922421.17215 22665 c587e51fb5cd14ad9567d38bfe64739c ""
   "Intro/intro.tex" 1775922554.8614 3808 b12d4a5491061e265ad1139b854c8c74 ""
-  "homebook.aux" 1775922689.39168 7677 3df9d0c5039bcde73be86ccfe15a75bc "pdflatex"
+  "homebook.aux" 1775922975.40921 8990 b978bbe3ef99293bd2a962d46fb8fb47 "pdflatex"
   "homebook.ind" 1775921875.11358 0 d41d8cd98f00b204e9800998ecf8427e "makeindex homebook.idx"
-  "homebook.tex" 1775915960.66987 3784 4789af034fe98daf600def265a89d074 ""
-  "homebook.toc" 1775922689.39368 1845 1fe466f8a66915154d66d935ba0d5133 "pdflatex"
+  "homebook.tex" 1775922966.22879 3959 028c17e0e9eaa4be3069d73d99de6716 ""
+  "homebook.toc" 1775922975.41121 2095 2d521d587ece31e33e30ca386e8706ce "pdflatex"
   "leopart/antenna.png" 1775295183.88242 20166 aa225ece6210eabe06bfc24841eb1a2f ""
   "leopart/antenna_plot.png" 1775296711.39012 60837 b3a10e8f82aa7bd213963052cca73e77 ""
   "leopart/leopart.tex" 1775922684.69134 7048 50b276cd618bf079e9587216b6bd94d9 ""
