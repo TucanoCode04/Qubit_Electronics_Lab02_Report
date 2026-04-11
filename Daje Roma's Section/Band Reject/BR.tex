@@ -50,4 +50,12 @@ Then, by observing the transmission plot of S21/S12, we can notice that both at 
 \end{table}
 
 With the data processing, we can find the value of the frequency at which the strongest attenuation occurs for both S21 and S12 parameters, reported in Tab.~(2). The very low value of about -75 dB guarantees that the signal is almost completely suppressed at that frequency. This is also confirmed by looking at the reflection coefficients S11 and S22, where a peak occurs at the same frequency.
-The -3 dB bandwidth was estimated to be about 0.8 GHz, corresponding to the frequency region that is not transmitted by the DUT.
+The -3 dB bandwidth was estimated to be about 0.8 GHz, corresponding to the frequency region that is not transmitted by the DUT. 
+
+\subsection{Summary}
+At the end of the analysis, we can confirm that the DUT is a band-reject filter. To establish the specific frequency we want to suppress from the transmission, the size of the five the vertical lines linked to the main path is fundamental. In fact, to effectively reject a signal, the length of each vertical line, called "stub", must be approximately one-quarter of the wavelength ($\lambda/4$) at the target rejection frequency. Based on our measurements, the resonance occurs at $2.275 \text{ GHz}$. The calculation for the required stub length is as follows:
+
+\begin{align*}\lambda_0 &= \frac{c}{f} = \frac{3 \times 10^8 \text{ m/s}}{2.275 \times 10^9 \text{ Hz}} \approx 131.87 \text{ mm} \[10pt]\lambda_g &= \frac{\lambda_0}{\sqrt{\epsilon_{eff}}} \approx \frac{131.87 \text{ mm}}{\sqrt{3.3}} \approx 72.59 \text{ mm} \[10pt]L_{stub} &\approx \frac{\lambda_g}{4} \approx \frac{72.59 \text{ mm}}{4} \approx 18.15 \text{ mm}\end{align*}
+
+The resulting guided wavelength is in the order of millimeters. When divided by four, the calculated length $L_{stub} \approx 18.15 \text{ mm}$ is perfectly consistent with the physical dimensions of the stubs observed in the device (Fig. \ref{fig:device}). This confirms that the device was specifically designed to notch out frequencies in the $2.3 \text{ GHz}$ range,
+
