@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.20)  7 APR 2026 12:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.20)  11 APR 2026 17:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -268,124 +268,157 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
-) (./leopart/leopart.tex
+) (./Intro/intro.tex
 Chapter 1.
-<leopart/passband.png, id=17, 364.36125pt x 304.13625pt>
-File: leopart/passband.png Graphic file (type png)
-<use leopart/passband.png>
-Package pdftex.def Info: leopart/passband.png  used on input line 9.
-(pdftex.def)             Requested size: 220.50885pt x 184.061pt.
-<leopart/plot_full.png, id=18, 831.105pt x 609.9588pt>
-File: leopart/plot_full.png Graphic file (type png)
-<use leopart/plot_full.png>
-Package pdftex.def Info: leopart/plot_full.png  used on input line 21.
-(pdftex.def)             Requested size: 352.8155pt x 258.93588pt.
-
-Overfull \hbox (74.05907pt too wide) in paragraph at lines 29--38
-[][] 
- []
-
-
-Overfull \hbox (93.8974pt too wide) in paragraph at lines 41--50
-[][] 
- []
-
+<Intro/device_2ports.png, id=17, 373.99725pt x 177.66376pt>
+File: Intro/device_2ports.png Graphic file (type png)
+<use Intro/device_2ports.png>
+Package pdftex.def Info: Intro/device_2ports.png  used on input line 12.
+(pdftex.def)             Requested size: 308.71104pt x 146.65843pt.
 [1
 
 
- <./leopart/passband.png>] [2 <./leopart/plot_full.png>] [3]
+ <./Intro/device_2ports.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 57--61
+
+ []
+
+) (./leopart/leopart.tex [2]
 Chapter 2.
-<leopart/antenna.png, id=36, 190.7125pt x 140.525pt>
+<leopart/passband.png, id=32, 364.36125pt x 304.13625pt>
+File: leopart/passband.png Graphic file (type png)
+<use leopart/passband.png>
+Package pdftex.def Info: leopart/passband.png  used on input line 8.
+(pdftex.def)             Requested size: 220.50885pt x 184.061pt.
+<leopart/plot_full.png, id=33, 831.105pt x 609.9588pt>
+File: leopart/plot_full.png Graphic file (type png)
+<use leopart/plot_full.png>
+Package pdftex.def Info: leopart/plot_full.png  used on input line 20.
+(pdftex.def)             Requested size: 352.8155pt x 258.93588pt.
+
+Overfull \hbox (74.05907pt too wide) in paragraph at lines 28--37
+[][] 
+ []
+
+
+Overfull \hbox (93.8974pt too wide) in paragraph at lines 40--49
+[][] 
+ []
+
+[3
+
+ <./leopart/passband.png>] [4 <./leopart/plot_full.png>] [5]
+Chapter 3.
+<leopart/antenna.png, id=48, 190.7125pt x 140.525pt>
 File: leopart/antenna.png Graphic file (type png)
 <use leopart/antenna.png>
-Package pdftex.def Info: leopart/antenna.png  used on input line 69.
+Package pdftex.def Info: leopart/antenna.png  used on input line 68.
 (pdftex.def)             Requested size: 220.50885pt x 162.4859pt.
-<leopart/antenna_plot.png, id=37, 867.24pt x 706.0779pt>
+<leopart/antenna_plot.png, id=49, 867.24pt x 706.0779pt>
 File: leopart/antenna_plot.png Graphic file (type png)
 <use leopart/antenna_plot.png>
-Package pdftex.def Info: leopart/antenna_plot.png  used on input line 85.
+Package pdftex.def Info: leopart/antenna_plot.png  used on input line 84.
 (pdftex.def)             Requested size: 352.8155pt x 287.25284pt.
-[4
+[6
 
- <./leopart/antenna.png>]) (./Davides_Section/Circulator/circulator.tex [5 <./leopart/antenna_plot.png>]
-Chapter 3.
-<Davides_Section/Circulator/plots/circulator.jpg, id=47, 6167.04pt x 8190.6pt>
+ <./leopart/antenna.png>]) (./Davides_Section/Circulator/circulator.tex [7 <./leopart/antenna_plot.png>]
+Chapter 4.
+<Davides_Section/Circulator/plots/circulator.jpg, id=58, 6167.04pt x 8190.6pt>
 File: Davides_Section/Circulator/plots/circulator.jpg Graphic file (type jpg)
 <use Davides_Section/Circulator/plots/circulator.jpg>
 Package pdftex.def Info: Davides_Section/Circulator/plots/circulator.jpg  used on input line 24.
 (pdftex.def)             Requested size: 330.76328pt x 439.17386pt.
-[6
+[8
 
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<Davides_Section/Circulator/plots/config1_reflection.png, id=52, 433.62pt x 361.35pt>
+<Davides_Section/Circulator/plots/config1_reflection.png, id=63, 433.62pt x 361.35pt>
 File: Davides_Section/Circulator/plots/config1_reflection.png Graphic file (type png)
 <use Davides_Section/Circulator/plots/config1_reflection.png>
 Package pdftex.def Info: Davides_Section/Circulator/plots/config1_reflection.png  used on input line 35.
 (pdftex.def)             Requested size: 361.63776pt x 301.38156pt.
- [7 <./Davides_Section/Circulator/plots/circulator.jpg>]
-<Davides_Section/Circulator/plots/config1_transmission.png, id=56, 433.62pt x 361.35pt>
+ [9 <./Davides_Section/Circulator/plots/circulator.jpg>]
+<Davides_Section/Circulator/plots/config1_transmission.png, id=67, 433.62pt x 361.35pt>
 File: Davides_Section/Circulator/plots/config1_transmission.png Graphic file (type png)
 <use Davides_Section/Circulator/plots/config1_transmission.png>
 Package pdftex.def Info: Davides_Section/Circulator/plots/config1_transmission.png  used on input line 44.
 (pdftex.def)             Requested size: 361.63776pt x 301.38156pt.
- [8 <./Davides_Section/Circulator/plots/config1_reflection.png>]
-<Davides_Section/Circulator/plots/config2_reflection.png, id=61, 433.62pt x 361.35pt>
+ [10 <./Davides_Section/Circulator/plots/config1_reflection.png>]
+<Davides_Section/Circulator/plots/config2_reflection.png, id=72, 433.62pt x 361.35pt>
 File: Davides_Section/Circulator/plots/config2_reflection.png Graphic file (type png)
 <use Davides_Section/Circulator/plots/config2_reflection.png>
 Package pdftex.def Info: Davides_Section/Circulator/plots/config2_reflection.png  used on input line 55.
 (pdftex.def)             Requested size: 361.63776pt x 301.38156pt.
- [9 <./Davides_Section/Circulator/plots/config1_transmission.png>]
-<Davides_Section/Circulator/plots/config2_transmission.png, id=66, 433.62pt x 361.35pt>
+ [11 <./Davides_Section/Circulator/plots/config1_transmission.png>]
+<Davides_Section/Circulator/plots/config2_transmission.png, id=78, 433.62pt x 361.35pt>
 File: Davides_Section/Circulator/plots/config2_transmission.png Graphic file (type png)
 <use Davides_Section/Circulator/plots/config2_transmission.png>
 Package pdftex.def Info: Davides_Section/Circulator/plots/config2_transmission.png  used on input line 64.
 (pdftex.def)             Requested size: 361.63776pt x 301.38156pt.
- [10 <./Davides_Section/Circulator/plots/config2_reflection.png>] [11 <./Davides_Section/Circulator/plots/config2_transmission.png>]) (./Davides_Section/Dispabc/dispabc.tex [12]
-Chapter 4.
-<Davides_Section/Dispabc/plots/dispabc.jpg, id=79, 6167.04pt x 8190.6pt>
+ [12 <./Davides_Section/Circulator/plots/config2_reflection.png>] [13 <./Davides_Section/Circulator/plots/config2_transmission.png>]) (./Davides_Section/Dispabc/dispabc.tex [14]
+Chapter 5.
+<Davides_Section/Dispabc/plots/dispabc.jpg, id=90, 6167.04pt x 8190.6pt>
 File: Davides_Section/Dispabc/plots/dispabc.jpg Graphic file (type jpg)
 <use Davides_Section/Dispabc/plots/dispabc.jpg>
 Package pdftex.def Info: Davides_Section/Dispabc/plots/dispabc.jpg  used on input line 11.
 (pdftex.def)             Requested size: 308.71104pt x 409.92892pt.
-[13
+[15
 
 ]
-<Davides_Section/Dispabc/plots/disp_a.png, id=83, 433.62pt x 361.35pt>
+<Davides_Section/Dispabc/plots/disp_a.png, id=94, 433.62pt x 361.35pt>
 File: Davides_Section/Dispabc/plots/disp_a.png Graphic file (type png)
 <use Davides_Section/Dispabc/plots/disp_a.png>
 Package pdftex.def Info: Davides_Section/Dispabc/plots/disp_a.png  used on input line 24.
 (pdftex.def)             Requested size: 352.8155pt x 294.02623pt.
- [14 <./Davides_Section/Dispabc/plots/dispabc.jpg>]
-<Davides_Section/Dispabc/plots/disp_b.png, id=87, 433.62pt x 361.35pt>
+ [16 <./Davides_Section/Dispabc/plots/dispabc.jpg>]
+<Davides_Section/Dispabc/plots/disp_b.png, id=98, 433.62pt x 361.35pt>
 File: Davides_Section/Dispabc/plots/disp_b.png Graphic file (type png)
 <use Davides_Section/Dispabc/plots/disp_b.png>
 Package pdftex.def Info: Davides_Section/Dispabc/plots/disp_b.png  used on input line 32.
 (pdftex.def)             Requested size: 352.8155pt x 294.02623pt.
- [15 <./Davides_Section/Dispabc/plots/disp_a.png>]
-<Davides_Section/Dispabc/plots/disp_c.png, id=92, 433.62pt x 361.35pt>
+ [17 <./Davides_Section/Dispabc/plots/disp_a.png>]
+<Davides_Section/Dispabc/plots/disp_c.png, id=104, 433.62pt x 361.35pt>
 File: Davides_Section/Dispabc/plots/disp_c.png Graphic file (type png)
 <use Davides_Section/Dispabc/plots/disp_c.png>
 Package pdftex.def Info: Davides_Section/Dispabc/plots/disp_c.png  used on input line 40.
 (pdftex.def)             Requested size: 352.8155pt x 294.02623pt.
- [16 <./Davides_Section/Dispabc/plots/disp_b.png>] [17 <./Davides_Section/Dispabc/plots/disp_c.png>]) [18] (./homebook.aux)
+ [18 <./Davides_Section/Dispabc/plots/disp_b.png>] [19 <./Davides_Section/Dispabc/plots/disp_c.png>]) (./Daje Roma's Section/Band Reject/BR.tex [20]
+Chapter 6.
+<Daje Roma's Section/Band Reject/Plots/BR_photo.jpg, id=116, 2466.96657pt x 1007.26312pt>
+File: Daje Roma's Section/Band Reject/Plots/BR_photo.jpg Graphic file (type jpg)
+<use Daje Roma's Section/Band Reject/Plots/BR_photo.jpg>
+Package pdftex.def Info: Daje Roma's Section/Band Reject/Plots/BR_photo.jpg  used on input line 7.
+(pdftex.def)             Requested size: 220.50885pt x 90.0196pt.
+<Daje Roma's Section/Band Reject/Plots/BR_reflections.png, id=117, 722.7pt x 361.35pt>
+File: Daje Roma's Section/Band Reject/Plots/BR_reflections.png Graphic file (type png)
+<use Daje Roma's Section/Band Reject/Plots/BR_reflections.png>
+Package pdftex.def Info: Daje Roma's Section/Band Reject/Plots/BR_reflections.png  used on input line 22.
+(pdftex.def)             Requested size: 211.68661pt x 105.84193pt.
+<Daje Roma's Section/Band Reject/Plots/BR_trasmission.png, id=118, 722.7pt x 361.35pt>
+File: Daje Roma's Section/Band Reject/Plots/BR_trasmission.png Graphic file (type png)
+<use Daje Roma's Section/Band Reject/Plots/BR_trasmission.png>
+Package pdftex.def Info: Daje Roma's Section/Band Reject/Plots/BR_trasmission.png  used on input line 29.
+(pdftex.def)             Requested size: 211.68661pt x 105.84193pt.
+[21
+
+ <./Daje Roma's Section/Band Reject/Plots/BR_photo.jpg> <./Daje Roma's Section/Band Reject/Plots/BR_reflections.png> <./Daje Roma's Section/Band Reject/Plots/BR_trasmission.png>]) [22] (./homebook.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5719 strings out of 474222
- 89952 string characters out of 5748733
+ 5778 strings out of 474222
+ 92086 string characters out of 5748733
  1933975 words of memory out of 5000000
- 27910 multiletter control sequences out of 15000+600000
- 563613 words of font info for 57 fonts, out of 8000000 for 9000
+ 27959 multiletter control sequences out of 15000+600000
+ 564232 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,69p,690b,304s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on homebook.pdf (20 pages, 4755112 bytes).
+ 57i,13n,69p,771b,305s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on homebook.pdf (24 pages, 5255469 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
+ 192 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

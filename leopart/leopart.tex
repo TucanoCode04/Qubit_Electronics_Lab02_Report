@@ -1,8 +1,7 @@
 \chapter{Passband Filter}
 \section{Setup}
 The device, showed in figure \ref{passband},  has two ports which have been
-connected to the VNA ports. On the VNA software we set the frequency range to 
-be initially between 10MHz and 6.5GHz for the analysis. Then, by looking at the device's 
+connected to the VNA ports. By looking at the device's 
 response, we focused on the range 1.5GHz-3GHz, which is the one worth to be analyzed. The results have been extracted
 as Touchstone files and then they have been elaborated using python, in particular using the \texttt{scikit-rf} module.
 \begin{figure}[H]
@@ -63,7 +62,7 @@ for filtering out unwanted frequencies.
 \chapter{Antenna}
 \section{Setup}
 The DUT is shown in figure \ref{antenna}. It has a single port which has been connected to the VNA port (port 1 in this case).
-For the analysis, the range of frequencies has been set between 10MHz and 6.5GHz. Since in this case we have only one port,
+Since in this case we have only one port,
 the study will be focused on the $S11$ parameter, which is the only one available, and so on the behavior of the reflected signal.
 \begin{figure}[H]
     \includegraphics[width=0.5\textwidth]{leopart/antenna.png}
