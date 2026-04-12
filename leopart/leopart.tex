@@ -13,8 +13,8 @@ as Touchstone files and then they have been elaborated using python, in particul
 
 \section{Analysis of the measurements}
 By looking at figure \ref{plots_full}, which shows the magnitude of the signal of the respective channel, is it clear that the device has a reciprocal response
-between the two ports, since the plots of $S11$,$S22$ are identical as well as $S12$,$S21$ plots. The validity of this assumption is confirmed by the extraced values showed in table \ref{tab_pb}.
-This is a typical behavior of a passive component and so, for the rest of the analysis, we will focus only on the $S22$ and $S12$ parameters (second row of the figure).
+between the two ports, since the plots of $S_{11}$,$S_{22}$ are identical as well as $S_{12}$,$S_{21}$ plots. The validity of this assumption is confirmed by the extraced values showed in table \ref{tab_pb}.
+This is a typical behavior of a passive component and so, for the rest of the analysis, we will focus only on the $S_{22}$ and $S_{12}$ parameters (second row of the figure).
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{leopart/plot_full.png}
@@ -53,20 +53,20 @@ $S_{21}$ & 2275 & -4.88 & 123.31 \\
 \caption{Values of the $S$ parameters, where $f_{res}$ is the resonance frequency, MBW is the matching bandwidth calculated at $<-10$ dB, $f_c$ is the central frequency, and BW is the bandwidth calculated at $-3$ dB. The reciprocity of the device is evident from the symmetry between $S_{12}$ and $S_{21}$.}
 \label{tab_pb}
 \end{table}
-By examinating the $S12$ parameter, we understand that the device is allowing the signal to pass from input port (port 2) to output port (port 1) in a frequency range around $2275$MHz,
+By examinating the $S_{12}$ parameter, we understand that the device is allowing the signal to pass from input port (port 2) to output port (port 1) in a frequency range around $2275$MHz,
 with a bandwidth of $123.31$MHz. This tells us that the device has a quite wide bandwidth, making it suitable for the transmission of a not so limited number of frequencies. At peak frequency, the signal has an attenuation of $-4.88$dB, meaning that when the transmitted signal is at its peak, almost 60\% of it is transmitted. This 
 is due to the fact that the device is not an ideal one so it is affected by internal losses.
-Regarding the $S22$ parameter, we observe that the signal is almost completely reflected at frequencies below $2200$MHz and above $2300$MHz,
-while the reflection is minimum between these values at $2275$MHz where the magnitude of the reflected signal corresponds to $-19.53$dB. This behaviour is consistent with the previous analysis of the $S12$ parameter,
+Regarding the $S_{22}$ parameter, we observe that the signal is almost completely reflected at frequencies below $2200$MHz and above $2300$MHz,
+while the reflection is minimum between these values at $2275$MHz where the magnitude of the reflected signal corresponds to $-19.53$dB. This behaviour is consistent with the previous analysis of the $S_{12}$ parameter,
 since the signal is transmitted to port 1 from port 2 at the same frequency range at wich, on port 2, the signal is not reflected.
 
 \section{Summary}
-In conclusion, we can state that the device under test acts as a two-ports reciprocal passband filter. This conclusion is supported by the transmission bandwidth ($S_{12}$ or $S_{21}$), which is sufficiently wide to exclude the possibility of a high-Q resonator. Given the operating frequency range around $2300$MHz, the device could be used in wireless communication systems for filtering out unwanted frequencies.
+In conclusion, we can state that the device under test acts as a two-ports reciprocal passband filter. This conclusion is supported by the transmission bandwidth ($S_{12}$ or $S_{21}$), which is sufficiently wide to exclude the possibility of a high-Q resonator.
 \chapter{Antenna}
 \section{Setup}
 The DUT is shown in figure \ref{antenna}. It has a single port which has been connected to the VNA port (port 1 in this case).
 Since in this case we have only one port,
-the study will be focused on the $S11$ parameter, which is the only one available, and so on the behavior of the reflected signal.
+the study will be focused on the $S_{11}$ parameter, which is the only one available, and so on the behavior of the reflected signal.
 \begin{figure}[H]
     \includegraphics[width=0.5\textwidth]{leopart/antenna.png}
     \centering
@@ -86,7 +86,7 @@ sensitivity to the variations of the frequency of the transmitted signal. This m
 \begin{figure}[H]
     \includegraphics[width=0.8\textwidth]{leopart/antenna_plot.png}
     \centering
-    \caption{Plot of the $S11$ parameter of S matrix}
+    \caption{Plot of the $S_{11}$ parameter of S matrix}
     \label{antenna_plot}
 \end{figure}
 \section{Summary}
