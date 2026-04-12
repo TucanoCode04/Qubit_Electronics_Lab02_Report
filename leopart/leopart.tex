@@ -55,14 +55,13 @@ $S_{21}$ & 2275 & -4.88 & 123.31 \\
 \end{table}
 By examinating the $S12$ parameter, we understand that the device is allowing the signal to pass from input port (port 2) to output port (port 1) in a frequency range around $2275$MHz,
 with a bandwidth of $123.31$MHz. This tells us that the device has a quite wide bandwidth, making it suitable for the transmission of a not so limited number of frequencies. At peak frequency, the signal has an attenuation of $-4.88$dB, meaning that when the transmitted signal is at its peak, almost 60\% of it is transmitted. This 
-is due to the fact that the device is not an ideal one so it is affected by internal losses.\\
+is due to the fact that the device is not an ideal one so it is affected by internal losses.
 Regarding the $S22$ parameter, we observe that the signal is almost completely reflected at frequencies below $2200$MHz and above $2300$MHz,
 while the reflection is minimum between these values at $2275$MHz where the magnitude of the reflected signal corresponds to $-19.53$dB. This behaviour is consistent with the previous analysis of the $S12$ parameter,
 since the signal is transmitted to port 1 from port 2 at the same frequency range at wich, on port 2, the signal is not reflected.
 
 \section{Summary}
-In conclusion, we can state that the device under test acts as a two-ports reciprocal passband filter. This conclusion is supported by the transmission bandwidth ($S_{12}$ or $S_{21}$), which is sufficiently wide to exclude the possibility of a high-Q resonator. Given the operating frequency range around $2300$MHz, the device could be used in wireless communication systems, such as S-band applications or wireless data links
-for filtering out unwanted frequencies.
+In conclusion, we can state that the device under test acts as a two-ports reciprocal passband filter. This conclusion is supported by the transmission bandwidth ($S_{12}$ or $S_{21}$), which is sufficiently wide to exclude the possibility of a high-Q resonator. Given the operating frequency range around $2300$MHz, the device could be used in wireless communication systems for filtering out unwanted frequencies.
 \chapter{Antenna}
 \section{Setup}
 The DUT is shown in figure \ref{antenna}. It has a single port which has been connected to the VNA port (port 1 in this case).
