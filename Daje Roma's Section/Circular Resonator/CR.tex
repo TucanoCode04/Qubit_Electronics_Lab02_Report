@@ -1,1 +1,60 @@
-f
+\chapter{Circular Resonator}
+
+\section{Setup}
+The final device analyzed is a two-port DUT: a \textbf{Ring Resonator}, as shown in Fig. \ref{fig:device}. The structure consists of a main transmission line path interrupted by a circular ring. As we will demonstrate through the VNA measurements, the size of the ring is the fundamental parameter determining the resonant properties of the DUT.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Daje Roma's Section/Circular Resonator/Plots/CR_photo.jpg}
+    \caption{Circular resonator under test}
+    \label{fig:device}
+\end{figure}
+
+
+\section{Analysis of the Measurements}
+As the previous DUT, the plot of the VNA measurement covers all the frequencies investigated. This is because its behavior has to be studied over a wide frequency band.
+
+\begin{figure}[h]
+    \centering
+
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Daje Roma's Section/Circular Resonator/Plots/CR_reflections.png}
+        \caption{Reflection coefficients S11 and S22}
+        \label{fig:reflections}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Daje Roma's Section/Circulr Resonator/Plots/CR_trasmission.png}
+        \caption{Transmission coefficients S21 and S12}
+        \label{fig:transmission}
+    \end{minipage}
+
+\end{figure}
+
+The transmission plot ($S_{21}$) of Fig. \ref{fig:transmission}, reveals two distinct peaks where the device allows the incident wave to pass. At all other frequencies, the signal is primarily reflected. Since the device is physically and electrically symmetric, as confirmed by the perfect overlap of the $S_{21}/S_{12}$ and $S_{11}/S_{22}$ curves, we can focus the analysis on the scattering parameters in a single direction, from Port 1 to Port 2.
+
+\begin{table}[h]
+    \centering
+    \renewcommand{\arraystretch}{1.5} 
+    \begin{tabular}{|l|c|c|c|c|}
+        \hline
+        \textbf{Resonant Mode} & \textbf{Frequency [GHz]} & \textbf{Magnitude [dB]} & \textbf{BW [GHz]} & \textbf{$Q$} \\ \hline
+        Fundamental ($f_1$)    & 3.054                    & -11.59                  & 0.0260            & 117.46       \\ \hline
+        2nd Harmonic ($f_2$)   & 6.117                    & -10.91                  & 0.0519            & 117.86       \\ \hline
+    \end{tabular}
+    \caption{Resonance characteristic parameters extracted from $S_{21}$ transmission measurements.}
+    \label{tab:resonance_results}
+\end{table}
+
+By identifying the frequencies where the peaks occur, we observe that the second peak $f_2$ is located exactly at twice the frequency of the fundamental peak $f_1$. Despite the presence of this second harmonic, the extremely small bandwidth at 3.054 GHz, indicates that the DUT is specifically designed to operate as a resonator for the 3 GHz band.
+
+\section{Summary}
+Based on the experimental data, we can confirm that the DUT is a Ring Resonator with a fundamental resonance at \textbf{3.054 GHz}. This behavior is due to the constructive interference of electromagnetic waves within the ring. Resonance is obtained when the mean circumference of the structure, $L$, is an integer multiple of the guided wavelength $\lambda_g$:
+
+\begin{equation}
+L = n \lambda_g \approx n \frac{c}{f_r \sqrt{\epsilon_{eff}}}
+\end{equation}
+
+By applying this relation, we can see that for a frequency of approximately 3 GHz, the wavelength $\lambda_g$ is in the order of magnitude of several centimeters. This result is perfectly consistent with the physical dimensions of the ring shown in Fig. \ref{fig:device}. The precise alignment of the second resonance at $2f_1$ validates the Ring Resonator classification and its performance as a frequency-selective device.
