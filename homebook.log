@@ -1,293 +1,294 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.20)  11 APR 2026 17:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.23)  12 APR 2026 14:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/klakson/Desktop/uni_master/first_year/second_semester/Qubit Electronics/labs/lab2/report/Qubit_Electronics_Lab02_Report/homebook.tex"
-(/home/klakson/Desktop/uni_master/first_year/second_semester/Qubit Electronics/labs/lab2/report/Qubit_Electronics_Lab02_Report/homebook.tex
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-22>
-(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+**c:/Users/donat/Desktop/QubitElectronics_Labs/Qubit_Electronics_Lab02_Report/homebook.tex
+(c:/Users/donat/Desktop/QubitElectronics_Labs/Qubit_Electronics_Lab02_Report/homebook.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-09-10>
+(C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2024/02/08 v1.4n Standard LaTeX document class
+(C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/base\bk10.clo
+File: bk10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count187
-\c@chapter=\count188
-\c@section=\count189
-\c@subsection=\count190
-\c@subsubsection=\count191
-\c@paragraph=\count192
-\c@subparagraph=\count193
-\c@figure=\count194
-\c@table=\count195
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
-) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2024/01/07 v24.1 The Babel package
-\babel@savecnt=\count196
-\U@D=\dimen141
-\l@unhyphenated=\language89
- (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\c@part=\count194
+\c@chapter=\count195
+\c@section=\count196
+\c@subsection=\count197
+\c@subsubsection=\count198
+\c@paragraph=\count199
+\c@subparagraph=\count266
+\c@figure=\count267
+\c@table=\count268
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2024/10/05 v24.11 The Babel package
+\babel@savecnt=\count269
+\U@D=\dimen142
+\l@unhyphenated=\language79
+ (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count197
- (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+\bbl@dirlevel=\count270
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language35). Reported on input line 105.
+(babel)             (\language73). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language35). Reported on input line 108.
-)) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+(babel)             (\language73). Reported on input line 108.
+)) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
-) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip50
-\f@nch@O@elh=\skip51
-\f@nch@O@erh=\skip52
-\f@nch@O@olh=\skip53
-\f@nch@O@orh=\skip54
-\f@nch@O@elf=\skip55
-\f@nch@O@erf=\skip56
-\f@nch@O@olf=\skip57
-\f@nch@O@orf=\skip58
-) (/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
+) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip51
+\f@nch@O@elh=\skip52
+\f@nch@O@erh=\skip53
+\f@nch@O@olh=\skip54
+\f@nch@O@orh=\skip55
+\f@nch@O@elf=\skip56
+\f@nch@O@erf=\skip57
+\f@nch@O@olf=\skip58
+\f@nch@O@orf=\skip59
+) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
-) (./titlesec.sty
+) (titlesec.sty
 Package: titlesec 2001/01/23 v2.4 Sectioning titles
-\ttl@box=\box51
-\titlewidth=\dimen142
- (./titlesec.new *** titlesec 2.4, loading patch level 2 ***)) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+\ttl@box=\box52
+\titlewidth=\dimen143
+ (titlesec.new *** titlesec 2.4, loading patch level 2 ***)) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-\lst@mode=\count198
-\lst@gtempboxa=\box52
+\lst@mode=\count271
+\lst@gtempboxa=\box53
 \lst@token=\toks18
-\lst@length=\count199
-\lst@currlwidth=\dimen143
-\lst@column=\count266
-\lst@pos=\count267
-\lst@lostspace=\dimen144
-\lst@width=\dimen145
-\lst@newlines=\count268
-\lst@lineno=\count269
-\lst@maxwidth=\dimen146
- (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count270
-\lst@skipnumbers=\count271
-\lst@framebox=\box53
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2023/02/27 1.9 listings configuration
+\lst@length=\count272
+\lst@currlwidth=\dimen144
+\lst@column=\count273
+\lst@pos=\count274
+\lst@lostspace=\dimen145
+\lst@width=\dimen146
+\lst@newlines=\count275
+\lst@lineno=\count276
+\lst@maxwidth=\dimen147
+ (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count277
+\lst@skipnumbers=\count278
+\lst@framebox=\box54
+) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
-Package: listings 2023/02/27 1.9 (Carsten Heinz)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+ (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+ (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen147
-\Gin@req@width=\dimen148
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip59
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2024/05/23 v2.17q AMS math features
+\@mathmargin=\skip60
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
-\ex@=\dimen149
-)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+\ex@=\dimen150
+)) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen150
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+\pmbraise@=\dimen151
+) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count272
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count273
-\leftroot@=\count274
-LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count275
-\DOTSCASE@=\count276
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box54
-\strutbox@=\box55
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen151
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count277
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count278
-\dotsspace@=\muskip16
-\c@parentequation=\count279
-\dspbrk@lvl=\count280
+\inf@bad=\count279
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count280
+\leftroot@=\count281
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count282
+\DOTSCASE@=\count283
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen152
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count284
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count285
+\dotsspace@=\muskip17
+\c@parentequation=\count286
+\dspbrk@lvl=\count287
 \tag@help=\toks20
-\row@=\count281
-\column@=\count282
-\maxfields@=\count283
+\row@=\count288
+\column@=\count289
+\maxfields@=\count290
 \andhelp@=\toks21
-\eqnshift@=\dimen152
-\alignsep@=\dimen153
-\tagshift@=\dimen154
-\tagwidth@=\dimen155
-\totwidth@=\dimen156
-\lineht@=\dimen157
+\eqnshift@=\dimen153
+\alignsep@=\dimen154
+\tagshift@=\dimen155
+\tagwidth@=\dimen156
+\totwidth@=\dimen157
+\lineht@=\dimen158
 \@envbody=\toks22
-\multlinegap=\skip60
-\multlinetaggap=\skip61
+\multlinegap=\skip61
+\multlinetaggap=\skip62
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks24
 \thm@bodyfont=\toks25
 \thm@headfont=\toks26
 \thm@notefont=\toks27
 \thm@headpunct=\toks28
-\thm@preskip=\skip62
-\thm@postskip=\skip63
-\thm@headsep=\skip64
+\thm@preskip=\skip63
+\thm@postskip=\skip64
+\thm@headsep=\skip65
 \dth@everypar=\toks29
-) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count284
+\c@float@type=\count291
 \float@exts=\toks30
-\float@box=\box56
+\float@box=\box57
 \@float@everytoks=\toks31
-\@floatcapt=\box57
+\@floatcapt=\box58
 )
 \@indexfile=\write3
 \openout3 = `homebook.idx'.
 
 
 Writing index file homebook.idx
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count285
-\l__pdf_internal_box=\box58
+(C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count292
+\l__pdf_internal_box=\box59
 )
 
 LaTeX Warning: Unused global option(s):
     [makeidx].
 
-(./homebook.aux
-
-LaTeX Warning: Label `fig:device' multiply defined.
-
-
-LaTeX Warning: Label `fig:reflections' multiply defined.
-
-
-LaTeX Warning: Label `fig:transmission' multiply defined.
-
-
-LaTeX Warning: Label `tab:parametri_s' multiply defined.
-
-)
+(homebook.aux)
 \openout1 = `homebook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-\c@lstlisting=\count286
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+\c@lstlisting=\count293
+ (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count287
-\scratchdimen=\dimen158
-\scratchbox=\box59
-\nofMPsegments=\count288
-\nofMParguments=\count289
+\scratchcounter=\count294
+\scratchdimen=\dimen159
+\scratchbox=\box60
+\nofMPsegments=\count295
+\nofMParguments=\count296
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count290
-\MPscratchDim=\dimen159
-\MPnumerator=\count291
-\makeMPintoPDFobject=\count292
+\MPscratchCnt=\count297
+\MPscratchDim=\dimen160
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
 \everyMPtoPDFconversion=\toks33
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+ (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 <./logopoli.png, id=1, 703.9098pt x 309.7974pt>
 File: ./logopoli.png Graphic file (type png)
 <use ./logopoli.png>
-Package pdftex.def Info: ./logopoli.png  used on input line 118.
+Package pdftex.def Info: ./logopoli.png  used on input line 117.
 (pdftex.def)             Requested size: 227.62204pt x 100.17715pt.
- [1
+
+
+[1
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logopoli.png>] (./homebook.toc
+{C:/Users/donat/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logopoli.png>] (homebook.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write4
 \openout4 = `homebook.toc'.
 
- [1
 
-] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-) (./Intro/intro.tex
+
+[1
+
+] (C:\Users\donat\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+) (Intro/intro.tex
 Chapter 1.
-<Intro/device_2ports.png, id=17, 373.99725pt x 177.66376pt>
+<Intro/device_2ports.png, id=16, 373.99725pt x 177.66376pt>
 File: Intro/device_2ports.png Graphic file (type png)
 <use Intro/device_2ports.png>
 Package pdftex.def Info: Intro/device_2ports.png  used on input line 12.
 (pdftex.def)             Requested size: 308.71104pt x 146.65843pt.
+
+
 [1
 
 
@@ -296,162 +297,157 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--61
 
  []
 
-) (./leopart/leopart.tex [2]
+) (leopart/leopart.tex
+
+[2]
 Chapter 2.
-<leopart/passband.png, id=32, 364.36125pt x 304.13625pt>
+<leopart/passband.png, id=31, 364.36125pt x 304.13625pt>
 File: leopart/passband.png Graphic file (type png)
 <use leopart/passband.png>
 Package pdftex.def Info: leopart/passband.png  used on input line 8.
 (pdftex.def)             Requested size: 220.50885pt x 184.061pt.
-<leopart/plot_full.png, id=33, 831.105pt x 609.9588pt>
+<leopart/plot_full.png, id=32, 831.105pt x 609.9588pt>
 File: leopart/plot_full.png Graphic file (type png)
 <use leopart/plot_full.png>
 Package pdftex.def Info: leopart/plot_full.png  used on input line 20.
 (pdftex.def)             Requested size: 352.8155pt x 258.93588pt.
 
-Overfull \hbox (74.05907pt too wide) in paragraph at lines 28--37
-[][] 
- []
-
-
-Overfull \hbox (93.8974pt too wide) in paragraph at lines 40--49
-[][] 
- []
 
 [3
 
- <./leopart/passband.png>] [4 <./leopart/plot_full.png>] [5]
+ <./leopart/passband.png>]
+
+[4 <./leopart/plot_full.png>]
+
+[5]
 Chapter 3.
-<leopart/antenna.png, id=48, 190.7125pt x 140.525pt>
+<leopart/antenna.png, id=47, 190.7125pt x 140.525pt>
 File: leopart/antenna.png Graphic file (type png)
 <use leopart/antenna.png>
-Package pdftex.def Info: leopart/antenna.png  used on input line 68.
+Package pdftex.def Info: leopart/antenna.png  used on input line 72.
 (pdftex.def)             Requested size: 220.50885pt x 162.4859pt.
-<leopart/antenna_plot.png, id=49, 867.24pt x 706.0779pt>
+<leopart/antenna_plot.png, id=48, 867.24pt x 706.0779pt>
 File: leopart/antenna_plot.png Graphic file (type png)
 <use leopart/antenna_plot.png>
-Package pdftex.def Info: leopart/antenna_plot.png  used on input line 84.
+Package pdftex.def Info: leopart/antenna_plot.png  used on input line 88.
 (pdftex.def)             Requested size: 352.8155pt x 287.25284pt.
+
+
 [6
 
- <./leopart/antenna.png>]) (./Davides_Section/Circulator/circulator.tex [7 <./leopart/antenna_plot.png>]
-Chapter 4.
-<Davides_Section/Circulator/plots/circulator.jpg, id=58, 6167.04pt x 8190.6pt>
-File: Davides_Section/Circulator/plots/circulator.jpg Graphic file (type jpg)
-<use Davides_Section/Circulator/plots/circulator.jpg>
-Package pdftex.def Info: Davides_Section/Circulator/plots/circulator.jpg  used on input line 24.
-(pdftex.def)             Requested size: 330.76328pt x 439.17386pt.
-[8
+ <./leopart/antenna.png>]) (Davides_Section/Circulator/circulator.tex
 
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<Davides_Section/Circulator/plots/config1_reflection.png, id=63, 433.62pt x 361.35pt>
+[7 <./leopart/antenna_plot.png>]
+Chapter 4.
+<Davides_Section/Circulator/plots/image.png, id=57, 411.03563pt x 368.1253pt>
+File: Davides_Section/Circulator/plots/image.png Graphic file (type png)
+<use Davides_Section/Circulator/plots/image.png>
+Package pdftex.def Info: Davides_Section/Circulator/plots/image.png  used on input line 24.
+(pdftex.def)             Requested size: 198.45515pt x 177.7373pt.
+<Davides_Section/Circulator/plots/config1_reflection.png, id=58, 433.62pt x 361.35pt>
 File: Davides_Section/Circulator/plots/config1_reflection.png Graphic file (type png)
 <use Davides_Section/Circulator/plots/config1_reflection.png>
 Package pdftex.def Info: Davides_Section/Circulator/plots/config1_reflection.png  used on input line 35.
-(pdftex.def)             Requested size: 361.63776pt x 301.38156pt.
- [9 <./Davides_Section/Circulator/plots/circulator.jpg>]
-<Davides_Section/Circulator/plots/config1_transmission.png, id=67, 433.62pt x 361.35pt>
+(pdftex.def)             Requested size: 264.61331pt x 220.52243pt.
+
+
+[8
+
+ <./Davides_Section/Circulator/plots/image.png>]
+<Davides_Section/Circulator/plots/config1_transmission.png, id=64, 433.62pt x 361.35pt>
 File: Davides_Section/Circulator/plots/config1_transmission.png Graphic file (type png)
 <use Davides_Section/Circulator/plots/config1_transmission.png>
 Package pdftex.def Info: Davides_Section/Circulator/plots/config1_transmission.png  used on input line 44.
-(pdftex.def)             Requested size: 361.63776pt x 301.38156pt.
- [10 <./Davides_Section/Circulator/plots/config1_reflection.png>]
-<Davides_Section/Circulator/plots/config2_reflection.png, id=72, 433.62pt x 361.35pt>
+(pdftex.def)             Requested size: 264.61331pt x 220.52243pt.
+
+
+[9 <./Davides_Section/Circulator/plots/config1_reflection.png> <./Davides_Section/Circulator/plots/config1_transmission.png>]
+<Davides_Section/Circulator/plots/config2_reflection.png, id=70, 433.62pt x 361.35pt>
 File: Davides_Section/Circulator/plots/config2_reflection.png Graphic file (type png)
 <use Davides_Section/Circulator/plots/config2_reflection.png>
 Package pdftex.def Info: Davides_Section/Circulator/plots/config2_reflection.png  used on input line 55.
-(pdftex.def)             Requested size: 361.63776pt x 301.38156pt.
- [11 <./Davides_Section/Circulator/plots/config1_transmission.png>]
-<Davides_Section/Circulator/plots/config2_transmission.png, id=78, 433.62pt x 361.35pt>
+(pdftex.def)             Requested size: 264.61331pt x 220.52243pt.
+<Davides_Section/Circulator/plots/config2_transmission.png, id=71, 433.62pt x 361.35pt>
 File: Davides_Section/Circulator/plots/config2_transmission.png Graphic file (type png)
 <use Davides_Section/Circulator/plots/config2_transmission.png>
 Package pdftex.def Info: Davides_Section/Circulator/plots/config2_transmission.png  used on input line 64.
-(pdftex.def)             Requested size: 361.63776pt x 301.38156pt.
- [12 <./Davides_Section/Circulator/plots/config2_reflection.png>] [13 <./Davides_Section/Circulator/plots/config2_transmission.png>]) (./Davides_Section/Dispabc/dispabc.tex [14]
-Chapter 5.
-<Davides_Section/Dispabc/plots/dispabc.jpg, id=90, 6167.04pt x 8190.6pt>
-File: Davides_Section/Dispabc/plots/dispabc.jpg Graphic file (type jpg)
-<use Davides_Section/Dispabc/plots/dispabc.jpg>
-Package pdftex.def Info: Davides_Section/Dispabc/plots/dispabc.jpg  used on input line 11.
-(pdftex.def)             Requested size: 308.71104pt x 409.92892pt.
-[15
+(pdftex.def)             Requested size: 264.61331pt x 220.52243pt.
 
-]
-<Davides_Section/Dispabc/plots/disp_a.png, id=94, 433.62pt x 361.35pt>
+
+[10 <./Davides_Section/Circulator/plots/config2_reflection.png> <./Davides_Section/Circulator/plots/config2_transmission.png>]) (Davides_Section/Dispabc/dispabc.tex
+
+[11]
+Chapter 5.
+<Davides_Section/Dispabc/plots/image.png, id=81, 260.47313pt x 246.9225pt>
+File: Davides_Section/Dispabc/plots/image.png Graphic file (type png)
+<use Davides_Section/Dispabc/plots/image.png>
+Package pdftex.def Info: Davides_Section/Dispabc/plots/image.png  used on input line 11.
+(pdftex.def)             Requested size: 255.7945pt x 242.48724pt.
+<Davides_Section/Dispabc/plots/disp_a.png, id=82, 433.62pt x 361.35pt>
 File: Davides_Section/Dispabc/plots/disp_a.png Graphic file (type png)
 <use Davides_Section/Dispabc/plots/disp_a.png>
-Package pdftex.def Info: Davides_Section/Dispabc/plots/disp_a.png  used on input line 24.
-(pdftex.def)             Requested size: 352.8155pt x 294.02623pt.
- [16 <./Davides_Section/Dispabc/plots/dispabc.jpg>]
-<Davides_Section/Dispabc/plots/disp_b.png, id=98, 433.62pt x 361.35pt>
+Package pdftex.def Info: Davides_Section/Dispabc/plots/disp_a.png  used on input line 22.
+(pdftex.def)             Requested size: 251.38332pt x 209.48941pt.
+
+
+[12
+
+ <./Davides_Section/Dispabc/plots/image.png>]
+<Davides_Section/Dispabc/plots/disp_b.png, id=87, 433.62pt x 361.35pt>
 File: Davides_Section/Dispabc/plots/disp_b.png Graphic file (type png)
 <use Davides_Section/Dispabc/plots/disp_b.png>
-Package pdftex.def Info: Davides_Section/Dispabc/plots/disp_b.png  used on input line 32.
-(pdftex.def)             Requested size: 352.8155pt x 294.02623pt.
- [17 <./Davides_Section/Dispabc/plots/disp_a.png>]
-<Davides_Section/Dispabc/plots/disp_c.png, id=104, 433.62pt x 361.35pt>
+Package pdftex.def Info: Davides_Section/Dispabc/plots/disp_b.png  used on input line 30.
+(pdftex.def)             Requested size: 251.38332pt x 209.48941pt.
+<Davides_Section/Dispabc/plots/disp_c.png, id=88, 433.62pt x 361.35pt>
 File: Davides_Section/Dispabc/plots/disp_c.png Graphic file (type png)
 <use Davides_Section/Dispabc/plots/disp_c.png>
-Package pdftex.def Info: Davides_Section/Dispabc/plots/disp_c.png  used on input line 40.
-(pdftex.def)             Requested size: 352.8155pt x 294.02623pt.
- [18 <./Davides_Section/Dispabc/plots/disp_b.png>] [19 <./Davides_Section/Dispabc/plots/disp_c.png>]) (./Daje Roma's Section/Band Reject/BR.tex [20]
+Package pdftex.def Info: Davides_Section/Dispabc/plots/disp_c.png  used on input line 38.
+(pdftex.def)             Requested size: 251.38332pt x 209.48941pt.
+
+
+[13 <./Davides_Section/Dispabc/plots/disp_a.png> <./Davides_Section/Dispabc/plots/disp_b.png>]) (Daje Roma's Section/Band Reject/BR.tex
+
+[14 <./Davides_Section/Dispabc/plots/disp_c.png>]
 Chapter 6.
-<Daje Roma's Section/Band Reject/Plots/BR_photo.jpg, id=116, 2466.96657pt x 1007.26312pt>
+<Daje Roma's Section/Band Reject/Plots/BR_photo.jpg, id=98, 2466.96657pt x 1007.26312pt>
 File: Daje Roma's Section/Band Reject/Plots/BR_photo.jpg Graphic file (type jpg)
 <use Daje Roma's Section/Band Reject/Plots/BR_photo.jpg>
 Package pdftex.def Info: Daje Roma's Section/Band Reject/Plots/BR_photo.jpg  used on input line 7.
 (pdftex.def)             Requested size: 220.50885pt x 90.0196pt.
-<Daje Roma's Section/Band Reject/Plots/BR_reflections.png, id=117, 722.7pt x 361.35pt>
+<Daje Roma's Section/Band Reject/Plots/BR_reflections.png, id=99, 722.7pt x 361.35pt>
 File: Daje Roma's Section/Band Reject/Plots/BR_reflections.png Graphic file (type png)
 <use Daje Roma's Section/Band Reject/Plots/BR_reflections.png>
 Package pdftex.def Info: Daje Roma's Section/Band Reject/Plots/BR_reflections.png  used on input line 22.
 (pdftex.def)             Requested size: 211.68661pt x 105.84193pt.
-<Daje Roma's Section/Band Reject/Plots/BR_trasmission.png, id=118, 722.7pt x 361.35pt>
+<Daje Roma's Section/Band Reject/Plots/BR_trasmission.png, id=100, 722.7pt x 361.35pt>
 File: Daje Roma's Section/Band Reject/Plots/BR_trasmission.png Graphic file (type png)
 <use Daje Roma's Section/Band Reject/Plots/BR_trasmission.png>
 Package pdftex.def Info: Daje Roma's Section/Band Reject/Plots/BR_trasmission.png  used on input line 29.
 (pdftex.def)             Requested size: 211.68661pt x 105.84193pt.
-[21
 
- <./Daje Roma's Section/Band Reject/Plots/BR_photo.jpg> <./Daje Roma's Section/Band Reject/Plots/BR_reflections.png> <./Daje Roma's Section/Band Reject/Plots/BR_trasmission.png>]) (./Daje Roma's Section/Band Reject/BR.tex [22]
-Chapter 7.
-File: Daje Roma's Section/Band Reject/Plots/BR_photo.jpg Graphic file (type jpg)
-<use Daje Roma's Section/Band Reject/Plots/BR_photo.jpg>
-Package pdftex.def Info: Daje Roma's Section/Band Reject/Plots/BR_photo.jpg  used on input line 7.
-(pdftex.def)             Requested size: 220.50885pt x 90.0196pt.
-File: Daje Roma's Section/Band Reject/Plots/BR_reflections.png Graphic file (type png)
-<use Daje Roma's Section/Band Reject/Plots/BR_reflections.png>
-Package pdftex.def Info: Daje Roma's Section/Band Reject/Plots/BR_reflections.png  used on input line 22.
-(pdftex.def)             Requested size: 211.68661pt x 105.84193pt.
-File: Daje Roma's Section/Band Reject/Plots/BR_trasmission.png Graphic file (type png)
-<use Daje Roma's Section/Band Reject/Plots/BR_trasmission.png>
-Package pdftex.def Info: Daje Roma's Section/Band Reject/Plots/BR_trasmission.png  used on input line 29.
-(pdftex.def)             Requested size: 211.68661pt x 105.84193pt.
-[23
 
-]) (./Daje Roma's Section/Circular Resonator/CR.tex) [24] (./homebook.aux)
+[15
+
+ <./Daje Roma's Section/Band Reject/Plots/BR_photo.jpg> <./Daje Roma's Section/Band Reject/Plots/BR_reflections.png> <./Daje Roma's Section/Band Reject/Plots/BR_trasmission.png>]) (Daje Roma's Section/Circular Resonator/CR.tex)
+
+[16] (homebook.aux)
  ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-22>
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-09-10>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 5791 strings out of 474222
- 92652 string characters out of 5748733
- 1933975 words of memory out of 5000000
- 27965 multiletter control sequences out of 15000+600000
+ 5819 strings out of 473899
+ 95561 string characters out of 5726499
+ 674379 words of memory out of 5000000
+ 28602 multiletter control sequences out of 15000+600000
  564232 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,13n,69p,773b,305s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on homebook.pdf (26 pages, 5260256 bytes).
+ 57i,13n,69p,769b,305s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\donat\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on homebook.pdf (18 pages, 2688299 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
+ 171 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

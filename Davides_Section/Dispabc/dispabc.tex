@@ -1,49 +1,47 @@
-\chapter{Device Characterization}
+\chapter{Planar Resonant Structures}
 
-\section{Measurement Setup}
+\section{Setup}
 
-The device under test (DUT) consists of a planar RF structure enclosed in a metallic housing, containing three different configurations labeled A, B, and C. Each configuration was measured independently.
+The device under test (DUT) consists of a planar RF structure enclosed in a metallic housing, containing three different configurations labeled A, B, and C. Each configuration corresponds to a different microstrip layout within the same device and was measured independently.
 
-The DUT was characterized using a Vector Network Analyzer (VNA) in a one-port configuration, measuring the reflection coefficient $S_{11}$. This choice is dictated by the physical structure of the device, which is accessible from a single port.
+The DUT was characterized using a Vector Network Analyzer (VNA) in a one-port configuration, measuring the reflection coefficient $S_{11}$. This choice is dictated by the physical structure of the device, which is accessible from a single port and is designed to operate as a reflective element.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\linewidth]{Davides_Section/Dispabc/plots/dispabc.jpg}
+\includegraphics[width=0.58\linewidth, height=0.45\textheight, keepaspectratio]{Davides_Section/Dispabc/plots/image.png}
 \caption{Experimental setup showing the DUT connected to the VNA.}
 \label{fig:dut_setup}
 \end{figure}
 
-A standard calibration procedure was applied prior to the measurements in order to remove the contribution of cables and connectors.
+\section{Analysis of the Measurements}
 
-\section{Measured Response and Discussion}
-
-The measured $|S_{11}|$ responses for the three configurations are reported in Figures below.
+The measured $|S_{11}|$ responses for the three configurations are reported in the figures below.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\linewidth]{Davides_Section/Dispabc/plots/disp_a.png}
+\includegraphics[width=0.57\linewidth]{Davides_Section/Dispabc/plots/disp_a.png}
 \caption{$S_{11}$ magnitude for configuration A.}
 \end{figure}
 
-Configuration A exhibits a clear resonance around $5\,\mathrm{GHz}$, visible as a dip in the reflection coefficient reaching approximately $-17\,\mathrm{dB}$. The relatively broad shape of the dip indicates a moderate quality factor, suggesting non-negligible losses or weak confinement of the electromagnetic field.
+Configuration A exhibits a clear resonance around $5\,\mathrm{GHz}$, visible as a dip in the reflection coefficient reaching approximately $-17\,\mathrm{dB}$. The relatively broad shape of the dip indicates a moderate quality factor, consistent with a resonant structure with limited energy confinement and non-negligible losses.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\linewidth]{Davides_Section/Dispabc/plots/disp_b.png}
+\includegraphics[width=0.57\linewidth]{Davides_Section/Dispabc/plots/disp_b.png}
 \caption{$S_{11}$ magnitude for configuration B.}
 \end{figure}
 
-Configuration B shows a single, well-defined resonance around $2.7\,\mathrm{GHz}$, with a much deeper minimum (below $-30\,\mathrm{dB}$). This indicates a significantly better impedance matching at resonance and a higher quality factor, meaning that energy is more efficiently stored within the structure.
+Configuration B shows a single, well-defined resonance around $2.7\,\mathrm{GHz}$, with a much deeper minimum (below $-30\,\mathrm{dB}$). This behavior indicates a more efficient impedance matching at resonance and a higher quality factor, meaning that the structure is able to store electromagnetic energy more effectively.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\linewidth]{Davides_Section/Dispabc/plots/disp_c.png}
+\includegraphics[width=0.57\linewidth]{Davides_Section/Dispabc/plots/disp_c.png}
 \caption{$S_{11}$ magnitude for configuration C.}
 \end{figure}
 
-Configuration C exhibits a more complex behavior, with two distinct resonances around $3\,\mathrm{GHz}$ and $4.8\,\mathrm{GHz}$. This suggests the presence of multiple resonant modes, likely due to a more complex geometry or coupling between different sections of the structure.
+Configuration C exhibits two distinct resonances around $3\,\mathrm{GHz}$ and $4.8\,\mathrm{GHz}$. This behavior is a direct consequence of the additional central stub present in the structure, which introduces a second resonant path and coupling between different sections of the device. As a result, multiple resonant modes are supported, each associated with a different effective electrical length and field distribution within the structure.
 
-\section{Physical Interpretation}
+\section{Physical Interpretation and Conclusion}
 
 The observed responses are characteristic of reflective resonant structures implemented in planar technology, such as microstrip stub resonators.
 
@@ -53,15 +51,9 @@ The variation in resonance frequency between configurations A, B, and C can be a
 \begin{itemize}
     \item Configuration B resonates at the lowest frequency, indicating the largest effective length
     \item Configuration A resonates at higher frequency, corresponding to a shorter structure
-    \item Configuration C supports multiple resonances, suggesting either higher-order modes or coupled resonators
+    \item Configuration C supports multiple resonances, which is most consistently explained by the presence of an additional central stub that introduces extra resonant paths and coupling effects, leading to the excitation of multiple modes
 \end{itemize}
 
-Additionally, the depth and width of the resonant dips provide information about losses and coupling:
-\begin{itemize}
-    \item A deeper and sharper dip (configuration B) indicates stronger energy confinement and higher quality factor
-    \item Broader resonances (configuration A) suggest increased losses or weaker confinement
-\end{itemize}
+Additionally, the depth and width of the resonant dips provide information about losses and coupling. A deeper and sharper dip, as observed in configuration B, indicates stronger energy confinement and a higher quality factor, while broader resonances, as in configuration A, suggest increased losses or weaker confinement.
 
-\section{Conclusion}
-
-The DUT behaves as a set of planar reflective resonators, with geometry-dependent resonance frequencies and quality factors. The one-port $S_{11}$ measurement is sufficient to identify the resonant behavior and distinguish between different configurations, including single-mode and multi-mode responses.
+Overall, the DUT behaves as a set of planar reflective resonators, with geometry-dependent resonance frequencies and quality factors. The one-port $S_{11}$ measurement is sufficient to identify the resonant behavior and distinguish between different configurations, including single-mode and multi-mode responses.

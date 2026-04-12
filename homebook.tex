@@ -1,67 +1,67 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % This file defines the style for your homebook
-% You don't need to edit it any more, if not to 
+% You don't need to edit it any more, if not to
 % change the authors name:
 %
-% Search below for the keyword:   GROUP
+% Search below for the keyword: GROUP
 % insert your group number
 %
-% Search below for the keyword:   AUTHORS
+% Search below for the keyword: AUTHORS
 % insert the name of the authors
 %
-%%%%%%
-% Now to update the dexcription  of your work you will 
+%%%%%%%
+% Now to update the dexcription of your work you will
 % use the file ``master.tex'' in the current directory
-% following the instructions in it 
+% following the instructions in it
 %
-%%%%%% 
-%%%%%%  
-%%%%%%
+%%%%%%%
+%%%%%%%
+%%%%%%%
 % If you want to compile your document you have TWO ways
-% depending on the fact that 
-% 	1) you have inserted only postcript images in your tex file 
-%		---> then go to MODE 1
-%	2) you have inserted other kind of images (jpg..) in your tec file
-%		---> then go to MODE 2
+% depending on the fact that
+%   1) you have inserted only postcript images in your tex file
+%       ---> then go to MODE 1
+%   2) you have inserted other kind of images (jpg..) in your tec file
+%       ---> then go to MODE 2
 %
-% MODE 1 
-%simple type:
-% 	latex homebook.tex
+% MODE 1
+% simple type:
+%   latex homebook.tex
 %
 % If the compilation runs succesfully and you want to see the results type:
-% 	xdvi homebook.dvi &
+%   xdvi homebook.dvi &
 % and use the menus to go through the document
 %
 % If you want to create a pdf type:
-% 	dvipdfm homebook.dvi
+%   dvipdfm homebook.dvi
 %
 % a homebook.pdf file is created
 % you can see it using the command:
-% 	acroread homebook.pdf &
+%   acroread homebook.pdf &
 %
 %
 % MODE 2
 % simple type:
-%	pdflatex homebook.tex
+%   pdflatex homebook.tex
 %
 % If the compilation runs succesfully you directly have the pdf file
 % and you can see it using the command:
-%       acroread homebook.pdf &
+%   acroread homebook.pdf &
 %
-% 
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[10pt,  english, makeidx, a4paper, titlepage, oneside]{book}
+
+\documentclass[10pt, english, makeidx, a4paper, titlepage, oneside]{book}
+
 \usepackage{babel}
 \usepackage{fancyhdr}
 \usepackage{makeidx}
 \usepackage{titlesec}
-\usepackage{listings} 
-
+\usepackage{listings}
 
 \newenvironment{listato}{\footnotesize}
                         {\normalsize }
-
 
 %\pagestyle{empty}
 
@@ -85,6 +85,7 @@
 \usepackage{amsthm}
 \usepackage{amssymb}
 \usepackage{float}
+
 %\oddsidemargin -1.1cm
 
 \titleformat{\chapter}[display]
@@ -100,22 +101,20 @@
 \vspace{1pc}
 \Huge}
 
-\newcommand{\SubSubSection}[1]{\subsubsection{\bf Exercise   ~#1}}
-
-\newcommand{\homework}[1]{\subsubsection{\bf Homework   ~#1}}
-
+\newcommand{\SubSubSection}[1]{\subsubsection{\bf Exercise ~#1}}
+\newcommand{\homework}[1]{\subsubsection{\bf Homework ~#1}}
 \newcommand{\Solution}{\subsubsection{\bf Solution}}
 
-
-
-
 \makeindex
+
 \begin{document}
+
 \frontmatter
+
 \begin{titlepage}
 \vspace{2cm}
 \centerline{
-\includegraphics[width=8cm]{./logopoli}}  
+\includegraphics[width=8cm]{./logopoli}}
 %\centerline{\LARGE Politecnico di Torino}
 \bigskip
 \centerline{\LARGE Politecnico di Torino}
@@ -126,6 +125,7 @@
 \vspace{2cm}
 \centerline{\LARGE Master degree in Quantum Engineering}
 \vspace{4.4cm}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % GROUP
 % Change the name of your group below
@@ -140,6 +140,7 @@
 \centerline{Riola Leonardo Antonio, Donati Davide, Girotto Giacomo}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \vspace{2cm}
 \centerline{\today}
 \end{titlepage}
@@ -147,22 +148,25 @@
 \tableofcontents
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
+%
 \mainmatter
+
 \lstset{language=VHDL}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%    
+%%
 %% HERE IS THE MAIN INCLUSION
 %%
+
 \input{Intro/intro.tex}
 \input{./leopart/leopart.tex}
 \input{./Davides_Section/Circulator/circulator.tex}
 \input{./Davides_Section/Dispabc/dispabc.tex}
-\input{Daje Roma's Section/Band Reject/BR.tex}
+\input{./Daje Roma's Section/Band Reject/BR.tex}
 \input{./Daje Roma's Section/Circular Resonator/CR.tex}
-%%
-%% NOW READ THE FILE master.tex  
-\end{document}
 
+%%
+%% NOW READ THE FILE master.tex
+
+\end{document}

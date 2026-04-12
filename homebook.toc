@@ -10,23 +10,17 @@
 \contentsline {section}{\numberline {3.1}Setup}{6}{}%
 \contentsline {section}{\numberline {3.2}Analysis of the measurements}{6}{}%
 \contentsline {section}{\numberline {3.3}Summary}{7}{}%
-\contentsline {chapter}{\numberline {4}Circulator Characterization}{8}{}%
-\contentsline {section}{\numberline {4.1}Measurement Setup and Working Principle}{8}{}%
-\contentsline {section}{\numberline {4.2}Measured Response and Discussion}{10}{}%
-\contentsline {subsection}{\numberline {4.2.1}Configuration 1}{10}{}%
-\contentsline {subsection}{\numberline {4.2.2}Configuration 2}{12}{}%
-\contentsline {section}{\numberline {4.3}Physical Interpretation}{13}{}%
-\contentsline {section}{\numberline {4.4}Conclusion}{14}{}%
-\contentsline {chapter}{\numberline {5}Device Characterization}{15}{}%
-\contentsline {section}{\numberline {5.1}Measurement Setup}{15}{}%
-\contentsline {section}{\numberline {5.2}Measured Response and Discussion}{16}{}%
-\contentsline {section}{\numberline {5.3}Physical Interpretation}{19}{}%
-\contentsline {section}{\numberline {5.4}Conclusion}{20}{}%
-\contentsline {chapter}{\numberline {6}Band Reject}{21}{}%
-\contentsline {section}{\numberline {6.1}Setup}{21}{}%
-\contentsline {section}{\numberline {6.2}Analysis of the measurements}{21}{}%
-\contentsline {section}{\numberline {6.3}Summary}{22}{}%
-\contentsline {chapter}{\numberline {7}Band Reject}{23}{}%
-\contentsline {section}{\numberline {7.1}Setup}{23}{}%
-\contentsline {section}{\numberline {7.2}Analysis of the measurements}{23}{}%
-\contentsline {section}{\numberline {7.3}Summary}{24}{}%
+\contentsline {chapter}{\numberline {4}Circulator}{8}{}%
+\contentsline {section}{\numberline {4.1}Setup}{8}{}%
+\contentsline {section}{\numberline {4.2}Analysis of the Measurements}{9}{}%
+\contentsline {subsection}{\numberline {4.2.1}Configuration 1}{9}{}%
+\contentsline {subsection}{\numberline {4.2.2}Configuration 2}{10}{}%
+\contentsline {section}{\numberline {4.3}Physical Interpretation and Conclusion}{11}{}%
+\contentsline {chapter}{\numberline {5}Planar Resonant Structures}{12}{}%
+\contentsline {section}{\numberline {5.1}Setup}{12}{}%
+\contentsline {section}{\numberline {5.2}Analysis of the Measurements}{12}{}%
+\contentsline {section}{\numberline {5.3}Physical Interpretation and Conclusion}{14}{}%
+\contentsline {chapter}{\numberline {6}Band Reject}{15}{}%
+\contentsline {section}{\numberline {6.1}Setup}{15}{}%
+\contentsline {section}{\numberline {6.2}Analysis of the measurements}{15}{}%
+\contentsline {section}{\numberline {6.3}Summary}{16}{}%

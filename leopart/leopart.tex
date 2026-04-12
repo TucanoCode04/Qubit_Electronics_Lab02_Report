@@ -22,32 +22,36 @@ This is a typical behavior of a passive component and so, for the rest of the an
     \label{plots_full}
 \end{figure}
 \begin{table}[H]
-    \centering
-    \label{tab_pb}
-    \begin{minipage}{0.48\textwidth}
-    \begin{tabular}{|l|c|c|c|}
-        \hline
-        \textbf{P} & \textbf{$f_{res}$ [MHz]} & \textbf{Min.Mag. [dB]} & \textbf{Match. BW [MHz]} \\
-        \hline
-        $S_{22}$ & 2287 & -19.53 & 103.84 \\
-        \hline
-        $S_{11}$ & 2281 & -17.81 & 103.84 \\
-        \hline
-    \end{tabular}
-    \end{minipage}
-    \hfill
-    \begin{minipage}{0.33\textwidth}
-    \begin{tabular}{|l|c|c|c|}
-        \hline
-        \textbf{P} & \textbf{$f_c$ [MHz]} & \textbf{Max.Mag. [dB]} & \textbf{BW [MHz]} \\
-        \hline
-        $S_{12}$ & 2275 & -4.88 & 123.31 \\
-        \hline
-        $S_{21}$ & 2275 & -4.88 & 123.31 \\
-        \hline
-    \end{tabular}
-    \end{minipage}
-    \caption{Values of the $S$ parameters, where \textbf{$f_{res}$} is the resonance frequency; \textbf{Match. BW} is the matching bandwidth calcualted at $<$-10dB; $f_c$ is the central frequency; \textbf{BW} is the bandwidth calculated at -3dB. It's evident the reciprocity of the device by comparison of the values of the parameters.}
+\centering
+
+\begin{minipage}[t]{0.49\textwidth}
+\centering
+\setlength{\tabcolsep}{4pt} % reduces column spacing
+\begin{tabular}{lccc}
+\hline
+\textbf{P} & \textbf{$f_{res}$ [MHz]} & \textbf{Min. [dB]} & \textbf{MBW [MHz]} \\
+\hline
+$S_{22}$ & 2287 & -19.53 & 103.84 \\
+$S_{11}$ & 2281 & -17.81 & 103.84 \\
+\hline
+\end{tabular}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+\centering
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lccc}
+\hline
+\textbf{P} & \textbf{$f_c$ [MHz]} & \textbf{Max. [dB]} & \textbf{BW [MHz]} \\
+\hline
+$S_{12}$ & 2275 & -4.88 & 123.31 \\
+$S_{21}$ & 2275 & -4.88 & 123.31 \\
+\hline
+\end{tabular}
+\end{minipage}
+
+\caption{Values of the $S$ parameters, where $f_{res}$ is the resonance frequency, MBW is the matching bandwidth calculated at $<-10$ dB, $f_c$ is the central frequency, and BW is the bandwidth calculated at $-3$ dB. The reciprocity of the device is evident from the symmetry between $S_{12}$ and $S_{21}$.}
+\label{tab_pb}
 \end{table}
 By examinating the $S12$ parameter, we understand that the device is allowing the signal to pass from input port (port 2) to output port (port 1) in a frequency range around $2275$MHz,
 with a bandwidth of $123.31$MHz. This tells us that the device has a quite wide bandwidth, making it suitable for the transmission of a not so limited number of frequencies. At peak frequency, the signal has an attenuation of $-4.88$dB, meaning that when the transmitted signal is at its peak, almost 60\% of it is transmitted. This 
