@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.23)  12 APR 2026 14:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.23)  12 APR 2026 14:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -419,11 +419,11 @@ File: Daje Roma's Section/Band Reject/Plots/BR_reflections.png Graphic file (typ
 <use Daje Roma's Section/Band Reject/Plots/BR_reflections.png>
 Package pdftex.def Info: Daje Roma's Section/Band Reject/Plots/BR_reflections.png  used on input line 22.
 (pdftex.def)             Requested size: 211.68661pt x 105.84193pt.
-<Daje Roma's Section/Band Reject/Plots/BR_trasmission.png, id=100, 722.7pt x 361.35pt>
+<Daje Roma's Section/Band Reject/Plots/BR_trasmission.png, id=100, 722.7pt x 433.62pt>
 File: Daje Roma's Section/Band Reject/Plots/BR_trasmission.png Graphic file (type png)
 <use Daje Roma's Section/Band Reject/Plots/BR_trasmission.png>
 Package pdftex.def Info: Daje Roma's Section/Band Reject/Plots/BR_trasmission.png  used on input line 29.
-(pdftex.def)             Requested size: 211.68661pt x 105.84193pt.
+(pdftex.def)             Requested size: 211.68661pt x 127.01033pt.
 
 
 [15
@@ -439,13 +439,13 @@ L3 programming layer <2024-09-10>
 Here is how much of TeX's memory you used:
  5819 strings out of 473899
  95561 string characters out of 5726499
- 674379 words of memory out of 5000000
+ 675379 words of memory out of 5000000
  28602 multiletter control sequences out of 15000+600000
  564232 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,13n,69p,769b,305s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\donat\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/donat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on homebook.pdf (18 pages, 2688299 bytes).
+Output written on homebook.pdf (18 pages, 2698821 bytes).
 PDF statistics:
  171 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

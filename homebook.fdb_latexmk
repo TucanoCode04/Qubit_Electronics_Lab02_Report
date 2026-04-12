@@ -1,11 +1,11 @@
 # Fdb version 4
-["makeindex homebook.idx"] 1775997117.38657 "homebook.idx" "homebook.ind" "homebook" 1775997120.05782 0
-  "homebook.idx" 1775997117 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex homebook.idx"] 1775997117.38657 "homebook.idx" "homebook.ind" "homebook" 1775997483.53651 0
+  "homebook.idx" 1775997481 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "homebook.ilg"
   "homebook.ind"
   (rewritten before read)
-["pdflatex"] 1775997117.56901 "c:/Users/donat/Desktop/QubitElectronics_Labs/Qubit_Electronics_Lab02_Report/homebook.tex" "homebook.pdf" "homebook" 1775997120.05814 0
+["pdflatex"] 1775997481.0927 "c:/Users/donat/Desktop/QubitElectronics_Labs/Qubit_Electronics_Lab02_Report/homebook.tex" "homebook.pdf" "homebook" 1775997483.5368 0
   "C:/Users/donat/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1774352199 82862 5cfc99bb35d1c98f6fcb48c5cfcd7edb ""
   "C:/Users/donat/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1741573783 11548 8d6edd83fd50d9ae75267a85a92d6887 ""
   "C:/Users/donat/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1729692926 11948238 cef82a51cc5d8db5d373796a8632c032 ""
@@ -78,8 +78,8 @@
   "C:/Users/donat/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstpatch.sty" 1727541453 353 9024412f43e92cd5b21fe9ded82d0610 ""
   "Daje Roma's Section/Band Reject/BR.tex" 1775990721 3943 af29335e5f24b53bcec8c4a50ff1e637 ""
   "Daje Roma's Section/Band Reject/Plots/BR_photo.jpg" 1775990721 342650 cb7f548cbab61dff42c773d4c83f5c2d ""
-  "Daje Roma's Section/Band Reject/Plots/BR_reflections.png" 1775990721 68874 0a840b325b35c998634c97fd4f794af9 ""
-  "Daje Roma's Section/Band Reject/Plots/BR_trasmission.png" 1775990721 36939 34fa6b2c93bf3dcd5ad23c654a081278 ""
+  "Daje Roma's Section/Band Reject/Plots/BR_reflections.png" 1775997480 74250 ca1b4d80c332bb5f3704783f3d32cf1e ""
+  "Daje Roma's Section/Band Reject/Plots/BR_trasmission.png" 1775997480 52804 743077652c1766a721db73563409316d ""
   "Daje Roma's Section/Circular Resonator/CR.tex" 1775990721 3 9a8ad92c50cae39aa2c5604fd0ab6d8c ""
   "Davides_Section/Circulator/circulator.tex" 1775995313 5945 79b5f2c38dc064055dc37d81dacfa353 ""
   "Davides_Section/Circulator/plots/config1_reflection.png" 1775140878 182972 940854a9206f7495b37a14323da4cf52 ""
@@ -95,10 +95,10 @@
   "Intro/device_2ports.png" 1775990721 22665 bb49901bdea69bcab21747be875d36cc ""
   "Intro/intro.tex" 1775990721 3872 b12d4a5491061e265ad1139b854c8c74 ""
   "c:/Users/donat/Desktop/QubitElectronics_Labs/Qubit_Electronics_Lab02_Report/homebook.tex" 1775997114 4006 9c552179a46880f1c641643335f3eaa7 ""
-  "homebook.aux" 1775997119 7396 e9a085359c46cbcb79639ad5250fe41d "pdflatex"
+  "homebook.aux" 1775997483 7396 e9a085359c46cbcb79639ad5250fe41d "pdflatex"
   "homebook.ind" 1775997117 0 d41d8cd98f00b204e9800998ecf8427e "makeindex homebook.idx"
   "homebook.tex" 1775997114 4006 9c552179a46880f1c641643335f3eaa7 ""
-  "homebook.toc" 1775997119 1686 73115277ea3fc9ccec9d52bbabf801e2 "pdflatex"
+  "homebook.toc" 1775997483 1686 73115277ea3fc9ccec9d52bbabf801e2 "pdflatex"
   "leopart/antenna.png" 1775727283 20166 87f1b70d02fc9969cc20427d08ee6912 ""
   "leopart/antenna_plot.png" 1775727283 60837 b1ce60b0925380fdd9939ca283920274 ""
   "leopart/leopart.tex" 1775993667 7031 1b1c58c6af41efe6d4346bd49ece7b58 ""
