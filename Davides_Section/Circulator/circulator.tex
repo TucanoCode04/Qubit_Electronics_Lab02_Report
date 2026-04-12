@@ -10,7 +10,7 @@ The DUT is a three-port circulator, a non-reciprocal RF device that routes signa
 This means that a signal entering one port is transmitted only to the next port in the sequence, while the other port is ideally isolated.
 
 Real circulators exhibit non-idealities such as insertion loss in the transmission path and finite isolation between non-connected ports.
-
+\newpage
 In order to characterize the device, two configurations were measured using a VNA:
 \begin{itemize}
     \item \textbf{Configuration 1}: ports 1 and 2 connected to the VNA, with port 3 terminated by a matched $50\,\Omega$ load
@@ -78,6 +78,3 @@ The purpose of the two measured configurations is precisely to make this behavio
 This is also the reason why the unused port must always be closed on a matched load: the load absorbs the power reaching that port and prevents it from being reflected back into the device, which would otherwise distort both reflection and transmission measurements.
 
 The measurements confirm the non-reciprocal behavior of the circulator. In both configurations, the comparison between the transmission coefficients clearly shows that one direction is favored, while the opposite one is strongly attenuated. By measuring two different port configurations and properly terminating the third port with a matched $50\,\Omega$ load, it is therefore possible to directly observe the cyclic routing of signals that characterizes the operation of the device. The reflection data additionally indicate that the component remains reasonably well matched over a broad frequency range.
-
-
-

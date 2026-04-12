@@ -1,64 +1,19 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% This file defines the style for your homebook
-% You don't need to edit it any more, if not to
-% change the authors name:
-%
-% Search below for the keyword: GROUP
-% insert your group number
-%
-% Search below for the keyword: AUTHORS
-% insert the name of the authors
-%
-%%%%%%%
-% Now to update the dexcription of your work you will
-% use the file ``master.tex'' in the current directory
-% following the instructions in it
-%
-%%%%%%%
-%%%%%%%
-%%%%%%%
-% If you want to compile your document you have TWO ways
-% depending on the fact that
-%   1) you have inserted only postcript images in your tex file
-%       ---> then go to MODE 1
-%   2) you have inserted other kind of images (jpg..) in your tec file
-%       ---> then go to MODE 2
-%
-% MODE 1
-% simple type:
-%   latex homebook.tex
-%
-% If the compilation runs succesfully and you want to see the results type:
-%   xdvi homebook.dvi &
-% and use the menus to go through the document
-%
-% If you want to create a pdf type:
-%   dvipdfm homebook.dvi
-%
-% a homebook.pdf file is created
-% you can see it using the command:
-%   acroread homebook.pdf &
-%
-%
-% MODE 2
-% simple type:
-%   pdflatex homebook.tex
-%
-% If the compilation runs succesfully you directly have the pdf file
-% and you can see it using the command:
-%   acroread homebook.pdf &
-%
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\documentclass[10pt, english, makeidx, a4paper, titlepage, oneside]{book}
-
+\documentclass[10pt,  english, a4paper, titlepage, oneside]{book}
 \usepackage{babel}
 \usepackage{fancyhdr}
 \usepackage{makeidx}
 \usepackage{titlesec}
-\usepackage{listings}
+\usepackage{listings} 
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage[subtle]{savetrees}
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\chapter}{\clearpage}{\par}{}{}
+\patchcmd{\chapter}{\cleardoublepage}{\par}{}{}
+\makeatother
 
 \newenvironment{listato}{\footnotesize}
                         {\normalsize }
@@ -84,37 +39,63 @@
 \usepackage{amsfonts}
 \usepackage{amsthm}
 \usepackage{amssymb}
-\usepackage{float}
-
+\usepackage{needspace}
 %\oddsidemargin -1.1cm
+\usepackage{etoolbox}
+\makeatletter
+\makeatother
 
-\titleformat{\chapter}[display]
-{\normalfont\Large\filcenter\sffamily}
-{\titlerule[0.5pt]%
-\vspace{1pt}
-\titlerule
-\vspace{1pc}
-\LARGE\MakeUppercase{\chaptertitlename} \thechapter
+% Chapter formatting
+\titleformat{\chapter}[block]
+{\normalfont\Large\sffamily\bfseries}
+{\thechapter.}{0.5em}{}
+[\vspace{2pt}\rule{\textwidth}{0.4pt}]
+
+\titlespacing*{\chapter}{0pt}{20pt}{2pt}
+
+% Section formatting
+\titleformat{\section}[block]
+{\normalfont\large\sffamily}
+{\thesection}{0.5em}{}
+
+\titlespacing*{\section}{0pt}{8pt}{10pt}
+
+\setlength{\parskip}{0pt}
+
+\setlength{\parindent}{1em}
+
+\setlength{\textfloatsep}{10pt}
+\setlength{\floatsep}{8pt}
+\setlength{\intextsep}{8pt}
+
+\titleformat{\subsection}[block]
+{\normalfont\normalsize\sffamily}
+{\thesubsection}{0.5em}{}
+
+\titlespacing*{\subsection}{0pt}{8pt}{8pt}
+
+\lstset{
+    basicstyle=\footnotesize,
+    aboveskip=5pt,
+    belowskip=5pt
 }
-{1pc}
-{\titlerule
-\vspace{1pc}
-\Huge}
 
-\newcommand{\SubSubSection}[1]{\subsubsection{\bf Exercise ~#1}}
-\newcommand{\homework}[1]{\subsubsection{\bf Homework ~#1}}
+\newcommand{\SubSubSection}[1]{\subsubsection{\bf Exercise   ~#1}}
+
+\newcommand{\homework}[1]{\subsubsection{\bf Homework   ~#1}}
+
 \newcommand{\Solution}{\subsubsection{\bf Solution}}
 
+
+
+
 \makeindex
-
 \begin{document}
-
 \frontmatter
-
 \begin{titlepage}
 \vspace{2cm}
 \centerline{
-\includegraphics[width=8cm]{./logopoli}}
+\includegraphics[width=8cm]{./logopoli}}  
 %\centerline{\LARGE Politecnico di Torino}
 \bigskip
 \centerline{\LARGE Politecnico di Torino}
@@ -125,12 +106,11 @@
 \vspace{2cm}
 \centerline{\LARGE Master degree in Quantum Engineering}
 \vspace{4.4cm}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % GROUP
 % Change the name of your group below
 %
-\centerline{\Large Authors: 3}
+\centerline{\Large Authors: Group 3}
 \vspace{2cm}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -140,7 +120,6 @@
 \centerline{Riola Leonardo Antonio, Donati Davide, Girotto Giacomo}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \vspace{2cm}
 \centerline{\today}
 \end{titlepage}
@@ -148,16 +127,14 @@
 \tableofcontents
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
+% 
 \mainmatter
 
-\lstset{language=VHDL}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%
+%%    
 %% HERE IS THE MAIN INCLUSION
 %%
+
 
 \input{Intro/intro.tex}
 \input{./leopart/leopart.tex}
@@ -166,7 +143,5 @@
 \input{./Daje Roma's Section/Band Reject/BR.tex}
 \input{./Daje Roma's Section/Circular Resonator/CR.tex}
 
-%%
-%% NOW READ THE FILE master.tex
-
+%% NOW READ THE FILE master.tex  
 \end{document}

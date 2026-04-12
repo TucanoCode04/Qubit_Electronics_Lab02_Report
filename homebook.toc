@@ -2,29 +2,29 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{}%
 \contentsline {section}{\numberline {1.1}Scattering matrix}{1}{}%
 \contentsline {section}{\numberline {1.2}Measurement setup and calibration}{2}{}%
-\contentsline {chapter}{\numberline {2}Passband Filter}{3}{}%
-\contentsline {section}{\numberline {2.1}Setup}{3}{}%
+\contentsline {chapter}{\numberline {2}Passband Filter}{2}{}%
+\contentsline {section}{\numberline {2.1}Setup}{2}{}%
 \contentsline {section}{\numberline {2.2}Analysis of the measurements}{3}{}%
 \contentsline {section}{\numberline {2.3}Summary}{4}{}%
-\contentsline {chapter}{\numberline {3}Antenna}{5}{}%
-\contentsline {section}{\numberline {3.1}Setup}{5}{}%
-\contentsline {section}{\numberline {3.2}Analysis of the measurements}{5}{}%
-\contentsline {section}{\numberline {3.3}Summary}{6}{}%
-\contentsline {chapter}{\numberline {4}Circulator}{7}{}%
-\contentsline {section}{\numberline {4.1}Setup}{7}{}%
-\contentsline {section}{\numberline {4.2}Analysis of the Measurements}{8}{}%
-\contentsline {subsection}{\numberline {4.2.1}Configuration 1}{8}{}%
-\contentsline {subsection}{\numberline {4.2.2}Configuration 2}{9}{}%
-\contentsline {section}{\numberline {4.3}Physical Interpretation and Conclusion}{10}{}%
-\contentsline {chapter}{\numberline {5}Planar Resonant Structures}{11}{}%
-\contentsline {section}{\numberline {5.1}Setup}{11}{}%
-\contentsline {section}{\numberline {5.2}Analysis of the Measurements}{11}{}%
-\contentsline {section}{\numberline {5.3}Physical Interpretation and Conclusion}{13}{}%
-\contentsline {chapter}{\numberline {6}Band Reject}{14}{}%
-\contentsline {section}{\numberline {6.1}Setup}{14}{}%
-\contentsline {section}{\numberline {6.2}Analysis of the measurements}{14}{}%
-\contentsline {section}{\numberline {6.3}Summary}{15}{}%
-\contentsline {chapter}{\numberline {7}Circular Resonator}{16}{}%
-\contentsline {section}{\numberline {7.1}Setup}{16}{}%
-\contentsline {section}{\numberline {7.2}Analysis of the Measurements}{16}{}%
-\contentsline {section}{\numberline {7.3}Summary}{17}{}%
+\contentsline {chapter}{\numberline {3}Antenna}{4}{}%
+\contentsline {section}{\numberline {3.1}Setup}{4}{}%
+\contentsline {section}{\numberline {3.2}Analysis of the measurements}{4}{}%
+\contentsline {section}{\numberline {3.3}Summary}{5}{}%
+\contentsline {chapter}{\numberline {4}Circulator}{5}{}%
+\contentsline {section}{\numberline {4.1}Setup}{5}{}%
+\contentsline {section}{\numberline {4.2}Analysis of the Measurements}{6}{}%
+\contentsline {subsection}{\numberline {4.2.1}Configuration 1}{6}{}%
+\contentsline {subsection}{\numberline {4.2.2}Configuration 2}{7}{}%
+\contentsline {section}{\numberline {4.3}Physical Interpretation and Conclusion}{8}{}%
+\contentsline {chapter}{\numberline {5}Planar Resonant Structures}{9}{}%
+\contentsline {section}{\numberline {5.1}Setup}{9}{}%
+\contentsline {section}{\numberline {5.2}Analysis of the Measurements}{9}{}%
+\contentsline {section}{\numberline {5.3}Physical Interpretation and Conclusion}{11}{}%
+\contentsline {chapter}{\numberline {6}Band Reject}{12}{}%
+\contentsline {section}{\numberline {6.1}Setup}{12}{}%
+\contentsline {section}{\numberline {6.2}Analysis of the measurements}{12}{}%
+\contentsline {section}{\numberline {6.3}Summary}{13}{}%
+\contentsline {chapter}{\numberline {7}Circular Resonator}{13}{}%
+\contentsline {section}{\numberline {7.1}Setup}{13}{}%
+\contentsline {section}{\numberline {7.2}Analysis of the Measurements}{14}{}%
+\contentsline {section}{\numberline {7.3}Summary}{14}{}%
