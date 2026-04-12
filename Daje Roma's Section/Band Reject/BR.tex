@@ -1,18 +1,18 @@
 \chapter{Band Reject}
 \section{Setup}
-The device under analysis is a Band-Reject Filter, designed to stop the transmission of a specific range of frequencies. As shown in Fig. \ref{fig:device}, this two-port device consists of a linear microstrip transmission line with several vertical lines connected to it. We will demonstrate through the following analysis that the length and spacing of these vertical lines, called "stubs" are the fundamental parameters defining the filtering characteristics of the DUT.
+The device under analysis is a \textbf{Band-Reject Filter}, designed to stop the transmission within a specific frequency range. As shown in \textbf{Fig. \ref{fig:device}}, this two-port device consists of a linear transmission line with several vertical shunt stubs. We will demonstrate through the following analysis that the length and spacing of these stubs are the fundamental parameters defining the filtering characteristics of the DUT.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.5\textwidth]{Daje Roma's Section/Band Reject/Plots/BR_photo.jpg}
-    \caption{Band reject device under test}
-    \label{fig:device}
+    \includegraphics[width=0.7\textwidth]{Daje Roma's Section/Band Reject/Plots/BR_photo.jpg}
+    \caption{Band reject device under test.}
+    \label{fig:device} 
 \end{figure}
 
 
 \section{Analysis of the measurements}
 
-For this device, the plot of the magnitude of the S-matrix covers all the investigated frequency range. This is because the behaviour of the DUT has to be analyzed over a wide frequency band. As a consequence, in Fig.~(9) the frequency is reported in GHz.
+For this device, the plot of the magnitude of the S-matrix covers all the investigated frequency range. This is because the behaviour of the DUT has to be analyzed over a wide frequency band. As a consequence, in Fig. \ref{fig:reflections} and Fig. \ref{fig:trasmission} the frequency is reported in GHz.
 
 \begin{figure}[h]
     \centering
@@ -33,7 +33,7 @@ For this device, the plot of the magnitude of the S-matrix covers all the invest
 
 \end{figure}
 
-The first thing to observe from the plot is that the DUT is passive and (approximately) symmetric, so the behavior is independent of which port is used for transmission. 
+The first thing to observe from the plot is that the DUT is passive and symmetric, so the behavior is independent of which port is used for transmission. 
 
 Then, by observing the transmission plot of S21/S12, we can notice that both at high frequency and at low frequency there is good transmissivity, with the magnitude close to 0 dB, except at a specific frequency where the transmissivity strongly decreases.
 
@@ -49,7 +49,7 @@ Then, by observing the transmission plot of S21/S12, we can notice that both at 
 \label{tab:parametri_s}
 \end{table}
 
-With the data processing, we can find the value of the frequency at which the strongest attenuation occurs for both S21 and S12 parameters, reported in Tab.~(2). The very low value of about -75 dB guarantees that the signal is almost completely suppressed at that frequency. This is also confirmed by looking at the reflection coefficients S11 and S22, where a peak occurs at the same frequency.
+With the data processing, we can find the value of the frequency at which the strongest attenuation occurs for both S21 and S12 parameters, reported in Tab. \ref{tab:parametri_s}. The very low value of about -75 dB guarantees that the signal is almost completely suppressed at that frequency. This is also confirmed by looking at the reflection coefficients S11 and S22, where a peak occurs at the same frequency.
 The -3 dB bandwidth was estimated to be about 0.8 GHz, corresponding to the frequency region that is not transmitted by the DUT. 
 
 \section{Summary}
@@ -61,4 +61,4 @@ At the end of the analysis, we can confirm that the DUT is a band-reject filter.
 L_{\text{stub}} &\approx \frac{\lambda_g}{4} \approx \frac{72.59 \text{ mm}}{4} \approx 18.15 \text{ mm}
 \end{align*}
 
-The resulting guided wavelength is in the order of millimeters. When divided by four, the calculated length $L_{stub} \approx 18.15 \text{ mm}$ is perfectly consistent with the physical dimensions of the stubs observed in the device (Fig. \ref{fig:device}). This confirms that the device was specifically designed to reflect frequencies in the $2.3 \text{ GHz}$ range.
+The resulting guided wavelength is in the order of millimeters. When divided by four, the calculated length $L_{stub} \approx 18.15 \text{ mm}$ is perfectly consistent with the physical dimensions of the stubs observed in the device Fig. \ref{fig:device}. This confirms that the device was specifically designed to reflect frequencies in the $2.3 \text{ GHz}$ range.
